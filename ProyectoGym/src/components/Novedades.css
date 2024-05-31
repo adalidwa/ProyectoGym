@@ -1,0 +1,62 @@
+.ContenedorGeneral{
+    border-style: dashed; 
+    height: 550px;
+    width: 700px; 
+    border-radius: 20px; 
+}
+.ContenedorNovedades{
+    display: flex;
+    height: 250px;
+    width: 600px;
+    /* background-color: blue; */
+}
+.contenedorFigura {
+    height: 250px;
+    width: 70px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorTexto{
+    margin: 20px;
+    height: 250px;
+    width: 500px;
+    /* background-color: blueviolet; */
+}
+
+.circulo{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(133, 37, 37);
+    border-radius: 100%;
+}
+
+.linea{
+    margin: 5px;
+    height: 200px;
+    width: 3px;
+    background-color: grey;
+}
+
+.Fecha{
+    font-family: 'Alumni Sans', sans-serif;
+    margin: 0;
+    color: grey;
+
+}
+
+.Novedad{
+    font-family: 'Alumni Sans', sans-serif;
+    margin: 0;
+}
+
+.Descripcion{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 22px;
+    font-weight:100px ;
+    margin: 5px;
+
+}
