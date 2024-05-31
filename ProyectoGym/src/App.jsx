@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Head from './components/Head'
 import PerfilCliente from './components/PerfilCliente'
+import BotonesCliente from './components/BotonesCliente'
 
 function App() {
 
@@ -11,8 +12,10 @@ function App() {
     <>
       <h2 className='titulo'>Head</h2>
       <Head/>
-      <h2 className='titulo'>PerfilCliente</h2>
+      <h2 className='titulo'>Perfil Cliente</h2>
       <PerfilCliente/>
+      <h2 className='titulo'>Botones Cliente</h2>
+      <BotonesCliente/>
     </>
   )
 }
