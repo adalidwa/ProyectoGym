@@ -1,0 +1,57 @@
+.ContenedorTotal{
+    background-color: #fdfdfd;
+    height: 455px;
+    width: 340px;
+    border-color: rgb(0, 0, 0);
+    border-style:dotted;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.ContenedorRecomendacion{
+    height: 420px;
+    width: 310px;
+    background-color: rgb(241, 230, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.Titulo{
+    font-family: 'Alumni Sans', sans-serif;
+    margin: 0px;
+    color: rgb(122, 36, 36);
+
+}
+
+.subtitulo{
+    font-family: 'Alumni Sans', sans-serif;
+    margin: 0;
+}
+
+.Descripcion{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 22px;
+    font-weight:100px ;
+    margin: 5px;
+    color: #747474;
+
+}
+
+.contenedorImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    overflow: hidden;
+  }
+  
+  .contenedorImagen img {
+    max-width: 100%;
+    height: auto;
+  }
