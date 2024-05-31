@@ -1,0 +1,71 @@
+.PerfilCliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.511);
+    height: 450px;
+    width: 400px;
+    margin: 10px auto;
+    border-radius: 80px;
+}
+  
+  .contenedorUsuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 400px;
+  }
+  
+  .Bienvenido {
+    color: white;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 5px; 
+  }
+  
+  .contenedorImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .contenedorImagen img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .ContenedorNombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 200px;
+  }
+  
+  .nombre {
+    color: white;
+    font-family: "Reem Kufi", sans-serif;
+  }
+  
+  .calendario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 50px;
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+  
+  .calendario img {
+    width: 35px;
+    height: auto;
+  }
+  
