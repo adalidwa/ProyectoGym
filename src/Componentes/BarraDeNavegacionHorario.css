@@ -1,0 +1,26 @@
+.BarraHorario{
+    /* background-color:blueviolet; */
+    display: inline-block;
+    width: 158px;
+    height: 98px;
+    margin: 300px 10px 10px 10px;
+
+}
+.BarraHorario p{
+    font-size: 11px;
+    margin: 4px;
+    
+}
+.BarraHorarioTitulo p{
+    color: #C04551;
+    font-size: 20px;
+}
+.BarraHorarioTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+.BarraHorarioTitulo img{
+    margin: 10px 5px 5px 5px;
+}

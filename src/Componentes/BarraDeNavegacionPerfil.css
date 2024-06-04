@@ -1,0 +1,34 @@
+.BarraNavegacionPerfil {
+    /* background-color: cadetblue; */
+    width: 159px;
+    height: 84px;
+    margin: 40px 10px 10px 10px;
+}
+
+.BarraDeNavegacionContenido {
+    display: flex;
+    align-items: center;
+}
+
+.BarraDeNavegacionFoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.BarraDeNavegacionFoto img {
+    border-radius: 50%;
+    width: 58px;
+    height: 56px;
+}
+
+.BarraNavegacionPerfil p {
+    font-size: 20px;
+    margin: 0 0 0 10px;
+}
+
+.BarraNavegacionPerfil hr {
+    width: 159px;
+    margin-top: 15px; 
+}

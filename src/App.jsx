@@ -1,6 +1,8 @@
 import React from 'react'
-import HorarioEntrenador from './Componentes/HorariosEntrenador.jsx'
-import PerfilEntrenador from './Componentes/PerfilEntrenador.jsx'
+import HorarioEntrenador from './Componentes/HorariosEntrenador.jsx';
+import PerfilEntrenador from './Componentes/PerfilEntrenador.jsx';
+import BarraDeNavegacion from './Componentes/BarraDeNavegacion.jsx';
+
 import './App.css'
 
 const App = () => {
@@ -8,6 +10,8 @@ const App = () => {
     <div className='Cuadro'>
       <HorarioEntrenador/>
       <PerfilEntrenador/>
+      <BarraDeNavegacion/>
+      
     </div>
     
   )

@@ -1,0 +1,30 @@
+.BarraNavegacionBotones{
+    /* background-color: aqua; */
+    width: 181px;
+    height: 213px;
+    margin: 10px;
+}
+.BarraNavegacionBotones p{
+    /* background-color: aquamarine; */
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0px;
+}
+.Barra{
+    display: flex;
+
+}
+.BarraNavegacionBotones button{
+    background-color: transparent;
+    margin: 9px;
+    padding: 0px;
+    text-align: unset;
+}
+.BarraBotonesImagenes img{
+    margin: 10px 5px 10px 5px;
+}
+.BarraBotonesTexto button{
+    margin: 7px 5px 11px 5px;;
+}
+
+

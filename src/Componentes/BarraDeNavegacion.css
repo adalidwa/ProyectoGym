@@ -1,0 +1,8 @@
+.BarraDeNavegacion{
+    /* background-color: blue; */
+    width: 203px;
+    height: 779px;
+    display: flex;
+    flex-direction: column;
+    
+}
