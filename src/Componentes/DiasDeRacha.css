@@ -1,0 +1,22 @@
+.DiasRacha{
+    /* background-color: cadetblue; */
+    display: flex;
+    width: 291px;
+    height: 107px;
+    align-items: center;
+    margin: 10px;
+}
+.DiasRachaTexto{
+    /* background-color: blueviolet; */
+    width: 120px;
+    height: 71px;
+}
+.DiasRachaTexto p{
+    /* background-color: blue; */
+    font-size: 20px;
+    margin: 0px;
+}
+.DiasRachaImg{
+    /* background-color: brown; */
+    margin: 0px 0px 0px 55px;
+}

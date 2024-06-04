@@ -1,0 +1,7 @@
+.Asistencia{
+    width: 337px;
+    height: 584px;
+    /* background-color: darkcyan; */
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,56 @@
+.Calendario {
+    /* background-color: #620909; */
+    width: 337px;
+    height: 337px;
+}
+.CalendarioTitulo {
+    text-align: center;
+    
+}
+.CalendarioTitulo h2{
+    font-size: 25px;
+    width: 307px;
+    height: 32px;
+    margin: 0px;
+}
+
+.Meses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlechaIzq{
+    cursor: pointer;
+    margin: 0 110px 0px 0px;
+    font-size: 30px;
+}
+.FlechaDer{
+    cursor: pointer;
+    margin: 0 0px 0px 110px;
+    font-size: 30px;
+}
+
+.MesNombre {
+    font-size: 25px;
+    font-weight: bold;
+}
+.Semana, .dias {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Semana div, .dias div {
+    width: 14.28%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.dias div {
+    margin: 0px;
+}
+
+.Dibujado {
+    background-color: #C04551;
+    border-radius: 50%;
+}
