@@ -1,0 +1,26 @@
+.ContenedorM{
+    margin: 0px;
+}
+.contenedorImagen{
+    width: 154px;
+    height: 98px;
+    overflow: hidden;
+    margin: 0px;
+}.contenedorImagen img{
+    width: 154px;
+    height: 98px;
+    border-radius: 16px 16px 0 0;
+    margin: 0px;
+}
+.contenedorTitulo{
+    width: 135px;
+    height: 16px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.contenedorTitulo h1{
+    font-size: 12px;
+    text-align: left;
+    color: #2465E1;
+    margin: 0px;
+}

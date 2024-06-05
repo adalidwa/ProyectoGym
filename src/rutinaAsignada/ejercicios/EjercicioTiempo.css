@@ -1,0 +1,36 @@
+.contenedorDetalles{
+    width: 154px;
+    height: 17px;
+    display: flex; 
+    margin-top: 5px;
+    margin-left: 8px;
+
+}
+.contenedorTiempo{
+    width: 67px;
+    height: 13px;
+    display: flex; 
+    align-items: center; 
+    gap: 4px; 
+}
+.contenedorTiempo img{
+    width: 10px;
+    height: 10px;
+}
+.contenedorTiempo p{
+    font-size: 10px;
+}
+.contenedorCalorias{
+    width: 43px;
+    height: 13px;
+    display: flex; 
+    align-items: center; 
+    gap: 4px; 
+}
+.contenedorCalorias img{
+    width: 10px;
+    height: 10px;
+}
+.contenedorCalorias p{
+    font-size: 10px;
+}

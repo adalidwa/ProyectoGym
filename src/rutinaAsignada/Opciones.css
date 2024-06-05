@@ -1,0 +1,19 @@
+.contenedorRutina{
+    width: 163px;
+    height: 37px;
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+    margin-top: 40px;
+    margin-left: 25px;
+
+}
+.contenedorRutina img{
+    width: 6px;
+    height: 11px;
+    
+}
+.contenedorRutina h1{
+    font-size: 17px;
+    
+}

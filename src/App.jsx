@@ -4,13 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Mensaje from './mensajeMotivación/Mensaje'
 import Card from './graficaDeEvaluacion/Card'
+import TarjetaRutina from './rutinaAsignada/TarjetaRutina'
+
 
 function App() {
 
   return (
     <>
+      
       {/* <Mensaje/> */}
-      <Card/>
+      {/* <Card/>  */}
+      <TarjetaRutina/> 
     </>
   )
 }
