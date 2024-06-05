@@ -1,0 +1,35 @@
+.ContenedorP{
+    width: 375px;
+    height: 91px;
+    border-radius: 12px;
+    background-color: #F5F9FF;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px; 
+    position: relative;
+}
+.ContenedorP img {
+    width: 24px;  
+    height: 24px; 
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.contenedorLetra{
+    width: 280px;
+    height: 70px;
+    display: block;
+    text-align: left; 
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.contenedorLetra h1{
+    color: black;
+    margin: 0;
+    font-size: 18px;
+}
+.contenedorLetra p{
+    color: #2F3F53;
+    margin: 0;
+    font-size: 14px;
+}
