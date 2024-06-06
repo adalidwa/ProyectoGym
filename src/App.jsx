@@ -9,6 +9,7 @@ import Novedades from './components/Novedades'
 import RecomendacionDieta from './components/RecomendacionDieta'
 import PantallaCliente from './components/PantallaCliente'
 import PantallaNutricionista from './components/PantallaNutricionista'
+import PantallaEntrenador from './components/PantallaEntrenador'
 function App() {
 
   return (
@@ -27,6 +28,8 @@ function App() {
       <PantallaCliente/>
       <h2 className='titulo'>PantallaNutricionista</h2>
       <PantallaNutricionista/>
+      <h2 className='titulo'>PantallaEntrenador</h2>
+      <PantallaEntrenador/>
     </>
   )
 }
