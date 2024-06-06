@@ -8,6 +8,7 @@ import BotonesCliente from './components/BotonesCliente'
 import Novedades from './components/Novedades'
 import RecomendacionDieta from './components/RecomendacionDieta'
 import PantallaCliente from './components/PantallaCliente'
+import PantallaNutricionista from './components/PantallaNutricionista'
 function App() {
 
   return (
@@ -24,6 +25,8 @@ function App() {
       <RecomendacionDieta/>
       <h2 className='titulo'>PantallaCliente</h2>
       <PantallaCliente/>
+      <h2 className='titulo'>PantallaNutricionista</h2>
+      <PantallaNutricionista/>
     </>
   )
 }

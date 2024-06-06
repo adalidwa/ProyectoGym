@@ -1,0 +1,32 @@
+.ContenedorPantallaNutricionista{
+    width:375px ;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    background-color: rgb(21, 21, 21);
+}
+
+.ContenedorImagen2{
+    position: relative;
+    display: inline-block;
+}
+.ContenedorImagen2 img {
+    width: 375px;
+    height: 380px;
+}
+.PerfilCliente {
+    position: absolute;
+    top: 10px; /* Ajusta este valor según sea necesario */
+    left: 10px; /* Ajusta este valor según sea necesario */
+    z-index: 10; /* Asegura que el perfil esté sobre la imagen */
+}
+
+/* @media (max-width: 1250px) {
+    .ContenedorPantallaCliente{
+        scale: 1.2;
+    }
+  }
+   */

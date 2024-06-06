@@ -1,0 +1,58 @@
+.PerfilNutricionista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.511);
+  height: 380px;
+  width: 350px;
+  margin: 10px auto;
+  border-radius: 80px;
+}
+
+.contenedorNutricionista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  width: 400px;
+}
+
+.Bienvenido {
+  color: white;
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 40px;
+  margin-top: 5px; 
+}
+
+.contenedorImagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.contenedorImagen img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ContenedorNombre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content:space-between;
+  height: 45px;
+  width: 250px;
+}
+
+.nombre {
+  color: white;
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 35px;
+}
+

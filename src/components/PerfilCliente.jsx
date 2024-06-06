@@ -6,11 +6,9 @@ const PerfilCliente = () => {
     const [cliente, setCliente] = useState({ name: '', avatar: '' });
 
     useEffect(() => {
-        // Aquí haces la solicitud a la API usando fetch
         fetch('https://661037cf0640280f219c98cc.mockapi.io/api/v2/clients')
             .then(response => response.json())
             .then(data => {
-                // Selecciona un cliente al azar
                 const randomCliente = data[Math.floor(Math.random() * data.length)];
                 setCliente({
                     name: randomCliente.name,
