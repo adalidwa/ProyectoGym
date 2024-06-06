@@ -1,0 +1,12 @@
+.delimitador
+{
+    display: flex;
+    height: 100vh;
+    width: 375px;
+    flex-direction: column;
+    border: 1px solid white;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    
+}

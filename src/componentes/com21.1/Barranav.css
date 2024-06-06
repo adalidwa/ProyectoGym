@@ -1,0 +1,23 @@
+.contenedor
+{
+    display: flex;
+    height: 67px;
+    width:100%;
+    background-color: rgba(51, 54, 63, 0.94);
+    flex-direction: row;
+    align-items: center;    /* alinear los items de manera vertival */
+    justify-content:space-between; /* alinear los items atraves de los ejes siendo row o column */
+    color: white;
+}
+.titulo
+{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.barritas
+{
+    margin-right: 10px;
+}
+

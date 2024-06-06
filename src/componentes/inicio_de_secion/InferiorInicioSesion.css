@@ -1,0 +1,33 @@
+.contenedor_inferior_ini_ses
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100%;
+    height: 35vh;
+  
+    align-items: center;
+}
+.correo_contra
+{
+
+    display: flex;
+    width: 265px;
+    height: 60px;
+    background-color: transparent !important;
+    border: 0;
+    border-bottom: 2px solid rgba(44, 44, 46, 1);
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: regular    ;
+    font-size: 25px;
+    color: white;
+    outline: none;
+}
+.correo_contra:focus {
+    border-color: #007BFF; 
+}
+.contenedor_inferior_ini_ses
+{
+    display: flex;
+}

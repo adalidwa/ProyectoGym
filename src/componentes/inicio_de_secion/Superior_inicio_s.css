@@ -1,0 +1,23 @@
+.cont_sup_ini
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-size: 100% 100%;
+    background-image: url(../../assets/imagens/Background.png);
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position:top; /* Centra la imagen */
+
+}
+.bienvenido_sup_ini
+{
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: regular;
+    font-size: 36px;
+    line-height: 0.7;
+}

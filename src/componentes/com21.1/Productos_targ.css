@@ -1,0 +1,37 @@
+.contenedor_targ
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 150px;
+    height: 164px;
+    background-color: rgba(44, 44, 46, 1);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10PX;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top:15px ;
+   
+}
+.imagenes
+{
+    width: 114px;
+    height: 99px;
+}
+.ima_title
+{
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.icons
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 21px;
+    height: 19px;
+}

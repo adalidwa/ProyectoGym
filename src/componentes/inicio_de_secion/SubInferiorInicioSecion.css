@@ -1,0 +1,20 @@
+.contenedor_SubInferiorInicioSecion
+{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    justify-content: flex-end;
+}
+.boton_SubInferiorInicioSecion
+{
+    width: 207px;
+    height: 50px;
+    border: 0;
+    background-color: rgba(182, 70, 86, 0.8105);
+    color: black;
+    border-radius: 48px;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 30px;
+}

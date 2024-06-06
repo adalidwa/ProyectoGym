@@ -1,0 +1,8 @@
+.contenedor_InputContra
+{
+    display: flex;
+    width: 311px;
+    height: 60px;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,31 @@
+.contenedor_bot_sup_ini
+{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+
+}
+.boton_sup_ini_a
+{
+    border: 0;
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(36, 101, 225, 1);
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 0.7;
+    
+}
+.boton_sup_ini
+{
+    border: 0;
+    color: white;
+    background-color: transparent;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 0.7;
+    
+}

@@ -1,0 +1,27 @@
+.contenedor_productos
+{
+    display: flex;
+    position: relative;
+    width: 375px;
+    color: white;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.subtitulo
+{
+    position: relative;
+    left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: regular;
+    font-size: 17px;
+    
+}
+.orgprod
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
