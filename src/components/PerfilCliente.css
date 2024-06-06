@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.511);
-    height: 450px;
-    width: 400px;
+    height: 380px;
+    width: 350px;
     margin: 10px auto;
     border-radius: 80px;
 }
@@ -22,7 +22,7 @@
   .Bienvenido {
     color: white;
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 5px; 
   }
   
@@ -45,23 +45,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
-    width: 200px;
+    justify-content:space-between;
+    height: 45px;
+    width: 250px;
   }
   
   .nombre {
     color: white;
-    font-family: "Reem Kufi", sans-serif;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 35px;
   }
   
   .calendario {
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.567);
     align-items: center;
-    height: 45px;
-    width: 50px;
-    border-radius: 15px;
-    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
   }
   
   .calendario img {
@@ -69,3 +71,8 @@
     height: auto;
   }
   
+  .calendario:hover {
+    background-color: transparent; /* Color más claro al pasar el ratón */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    transform: translateY(-2px); /* Mueve el botón hacia arriba */
+}

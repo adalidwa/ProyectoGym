@@ -7,6 +7,7 @@ import PerfilCliente from './components/PerfilCliente'
 import BotonesCliente from './components/BotonesCliente'
 import Novedades from './components/Novedades'
 import RecomendacionDieta from './components/RecomendacionDieta'
+import PantallaCliente from './components/PantallaCliente'
 function App() {
 
   return (
@@ -21,6 +22,8 @@ function App() {
       <Novedades/>
       <h2 className='titulo'>RecomendacionDieta</h2>
       <RecomendacionDieta/>
+      <h2 className='titulo'>PantallaCliente</h2>
+      <PantallaCliente/>
     </>
   )
 }
