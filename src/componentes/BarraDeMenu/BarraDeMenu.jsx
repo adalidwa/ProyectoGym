@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import BarraDeNavegacionPerfil from "./BarraDeNavegacionPerfil.jsx";
-import BarraDeNavegacionBotones from "./BarraDeNavegacionBotones.jsx";
-import BarraDeNavegacionHorario from "./BarraDeNavegacionHorario.jsx";
-import "./BarraDeNavegacion.css";
+import BarraDeMenuPerfil from "./BarraDeMenuPerfil.jsx";
+import BarraDeMenuBotones from "./BarraDeMenuBotones.jsx";
+import BarraDeMenuHorario from "./BarraDeMenuHorario.jsx";
+import "./BarraDeMenu.css";
 
-const BarraDeNavegacion = () => {
+const BarraDeMenu = () => {
   const [profile, setProfile] = useState({ name: "Jhovany", avatar: "../img/FotoEt.png" });
 
   useEffect(() => {
@@ -19,12 +19,12 @@ const BarraDeNavegacion = () => {
   }, []);
 
   return (
-    <div className="BarraDeNavegacion">
-      <BarraDeNavegacionPerfil name={profile.name} avatar={profile.avatar} />
-      <BarraDeNavegacionBotones />
-      <BarraDeNavegacionHorario />
+    <div className="BarraMenu">
+      <BarraDeMenuPerfil name={profile.name} avatar={profile.avatar} />
+      <BarraDeMenuBotones />
+      <BarraDeMenuHorario />
     </div>
   );
 };
 
-export default BarraDeNavegacion;
+export default BarraDeMenu;

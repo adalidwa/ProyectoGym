@@ -1,20 +1,21 @@
-import React from 'react'
-import Entrenadores from './Componentes/Entrenador/Entrenadores.jsx';
-import PerfilEntrenador from './Componentes/PerfilEntrenador/PerfilEntrenador.jsx';
-import BarraDeNavegacion from './Componentes/BarraDeNavegacion/BarraDeNavegacion.jsx'
-import Asistencia from './Componentes/Calendario/Asistencia.jsx';
-import FondoImagen from './Componentes/img/ImagenFondo.png';
-import './App.css'
+import React from "react";
+import Entrenadores from "./componentes/Entrenador/Entrenadores.jsx";
+import PerfilEntrenador from "./componentes/PerfilEntrenador/PerfilEntrenador.jsx";
+import BarraDeMenu from "./componentes/BarraDeMenu/BarraDeMenu.jsx";
+import Asistencia from "./componentes/Calendario/Asistencia.jsx";
+import FondoImagen from "./componentes/img/ImagenFondo.png";
+import BarraNavegacion from "./componentes/BarraNavegacion/BarraNavegacion.jsx";
+import "./App.css";
 const App = () => {
   return (
-    <div className='Cuadro'>
-      {/* <Entrenadores/> */}
-      {/* <PerfilEntrenador/> */}
-      <BarraDeNavegacion/>
+    <div className="cuadro">
+      <BarraNavegacion />
+      {/* <Entrenadores /> */}
+      <PerfilEntrenador/>
+      {/* <BarraDeMenu /> */}
       {/* <Asistencia/> */}
     </div>
-    
-  )
-}
+  );
+};
 
-export default App
+export default App;

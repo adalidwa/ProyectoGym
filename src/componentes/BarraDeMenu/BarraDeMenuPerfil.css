@@ -1,44 +1,41 @@
-.BarraNavegacionPerfil {
-    /* background-color: cadetblue; */
+.BarraMenuPerfil {
     width: 159px;
     height: 84px;
     margin: 40px 10px 0px 10px;
 }
-
-.BarraDeNavegacionContenido {
+.BarraDeMenuContenido{
     display: flex;
     align-items: center;
 }
-
-.BarraDeNavegacionFoto {
+.BarraDeMenuFoto{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
-    flex-direction: column;    
+    flex-direction: column;
 }
-
-.BarraDeNavegacionFoto img {
+.BarraDeMenuFoto img{
     border-radius: 50%;
     width: 58px;
     height: 56px;
     margin: 0px;
 }
-
-.BarraNavegacionPerfil p {
+.BarraMenuPerfil p{
     font-size: 25px;
     margin: 0 0 0 24px;
 }
-
-.BarraNavegacionPerfil hr {
+.BarraMenuPerfil hr{
     width: 159px;
-    margin-top: 15px; 
-}.BarraDeNavegacionFoto button{
+    margin-top: 0 0 0 24px;
+}
+.BarraDeMenuFoto button{
     background-color: transparent;
     font-size: 15px;
     width: 50px;
     height: 21px;
-    display: flex;
+    color: white;
+    border: none;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    
 }

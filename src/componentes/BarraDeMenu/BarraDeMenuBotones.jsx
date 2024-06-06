@@ -1,13 +1,13 @@
 import React from "react";
-import "./BarraDeNavegacionBotones.css";
+import "./BarraDeMenuBotones.css";
 import BuzonSugerencia from "../img/BuzonSugerencias.png";
 import Calendario from "../img/Calendario.png";
 import Mancuerna from "../img/Mancuerna.png";
 import Suplementos from "../img/Suplementos.png";
 
-const BarraDeNavegacionBotones = () => {
+const BarraDeMenuBotones = () => {
   return (
-    <div className="BarraNavegacionBotones">
+    <div className="BarraMenuBotones">
       <p>Principal</p>
       <div className="Barra">
         <div className="BarraBotonesImagenes">
@@ -27,4 +27,4 @@ const BarraDeNavegacionBotones = () => {
   );
 };
 
-export default BarraDeNavegacionBotones;
+export default BarraDeMenuBotones;

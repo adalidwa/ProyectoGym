@@ -1,7 +1,7 @@
 import React from "react";
-import "./BarraDeNavegacionHorario.css";
+import "./BarraDeMenuHorario.css";
 import RelojDeArena from "../img/RelojDeArena.png";
-const BarraDeNavegacionHorario = () => {
+const BarraDeMenuHorario = () => {
   return (
     <div className="BarraHorario">
       <div className="BarraHorarioTitulo">
@@ -17,4 +17,4 @@ const BarraDeNavegacionHorario = () => {
   );
 };
 
-export default BarraDeNavegacionHorario;
+export default BarraDeMenuHorario;

@@ -1,38 +1,29 @@
-.BarraNavegacionBotones{
-    /* background-color: aqua; */
+.BarraMenuBotones{
     width: 181px;
     height: 213px;
-    margin: 10px;
     margin: 0px 10px 10px 10px;
 }
-
-.BarraNavegacionBotones p{
-    /* background-color: aquamarine; */
+.BarraMenuBotones p{
     font-size: 27px;
     font-weight: bold;
     margin: 0px;
 }
 .Barra{
     display: flex;
-    /* background-color: aqua; */
-
 }
-.BarraNavegacionBotones button{
+.BarraMenuBotones button{
     background-color: transparent;
     margin: 9px;
     padding: 0px;
     text-align: unset;
     font-size: 22px;
-
+    border-color: black;
+    border: none;
+    color: white;
 }
-.BarraBotonesImagenes img{
+.BarraBotonesImagenes img{ 
     margin: 10px 5px 10px 5px;
 }
 .BarraBotonesTexto button{
-    margin: 0px 0px 9px 0px;
-    
-    
-    
+    margin: 0px 0px 8px 0px;
 }
-
-

@@ -1,8 +1,6 @@
-.BarraDeNavegacion{
-    /* background-color: blue; */
+.BarraMenu{
     width: 203px;
     height: 779px;
     display: flex;
     flex-direction: column;
-    
 }

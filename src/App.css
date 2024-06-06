@@ -1,9 +1,9 @@
-body{
-  background-color: black;
-  font-family: 'Alumni Sans';
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background: url("./Componentes/img/Im agenFondo.png") no-repeat center center; 
-  background-size: 376px 455px;  */
+.cuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: url("./componentes/img/ImagenFondo.png") no-repeat center center;
+    background-size: 375px 455px;
+    background-position: 0px 75px; */ 
 }
