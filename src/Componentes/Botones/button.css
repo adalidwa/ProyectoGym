@@ -1,0 +1,9 @@
+.bIniciar{
+    position: absolute;
+    width: 107px;
+    height: 28px;
+    border-radius: 28px;
+    background-color: rgba(192, 69, 81, 1);
+    color: white;
+    border: none;
+}

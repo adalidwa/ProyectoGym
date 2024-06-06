@@ -1,0 +1,44 @@
+.container {
+  position: absolute;
+  width: 375px;
+  height: 958px;
+  background-color: rgba(28, 28, 30, 1);
+  top: 0px;
+  left: 0px;
+}
+
+.cabecera {
+  position: absolute;
+  top: 45px;
+  left: -1px;
+  width: 375px;
+  height: 75px;
+}
+
+.opciones {
+  position: absolute;
+  width: 375px;
+  height: 58px;
+  top: 260px;
+  left: 0px;
+}
+
+.portada {
+  position: absolute;
+  width: 376px;
+  height: 359px;
+  top: 120px;
+}
+
+.titulo {
+  position: absolute;
+  top: 240px;
+  left: 7px;
+}
+.containerTexto {
+  position: absolute;
+  width: 345px;
+  height: 453px;
+  left: 23px;
+  top: 608px;
+}
