@@ -1,0 +1,49 @@
+.calendario {
+    width: 400px; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(28, 28, 30, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-anterior, .btn-siguiente {
+    background-color:rgba(182, 70, 86, 1);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .mes {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .dias-del-mes {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columnas para los días de la semana */
+    gap: 10px; /* Espacio entre los días */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .dia {
+    text-align: center;
+    padding: 10px
+    
+  }  

@@ -1,0 +1,44 @@
+.PerfilEntrenador {
+  
+  margin: auto;
+  background-color: rgba(28, 28, 30, 1);
+  max-width: 800px;
+  
+  
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.entrendor {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.entrenador-img {
+ width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px; 
+}
+
+.entrenador-info {
+  flex: 1;
+}
+
+.entrenador-info h2 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.entrenador-info p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Poppins', sans-serif;
+}

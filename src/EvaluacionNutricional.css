@@ -1,0 +1,182 @@
+.evaluacion-nutricional {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(28, 28, 30, 1);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .observaciones {
+    margin-bottom: 20px;
+    
+  }
+  
+  .observaciones label {
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .observaciones input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(182, 70, 86, 1);
+    background-color: rgba(96, 96, 102, 0.295);
+    color: white;
+    border-radius: 5px;
+    resize:vertical; 
+    height: 50px; 
+  }
+  
+  .evaluacion-nutricional h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+  }
+
+
+  .fecha-cliente {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .cliente,
+  .fecha {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+   
+  }
+  
+  .cliente label,
+  .fecha label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .cliente input,
+  .fecha input {
+    width: 100%;
+    padding: 5px;
+    color: white;
+    border: 1px solid rgba(182, 70, 86, 1);
+    background-color: rgba(96, 96, 102, 0.295);
+    border-radius: 5px;
+  }
+  
+  .datos-antropometricos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  .peso-altura {
+    display: flex;
+    justify-content: space-between;
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .peso,
+  .altura {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: white;
+    
+   
+    
+  }
+  
+  .peso label,
+  .altura label {
+    font-weight: bold;
+    margin-bottom: 5px;
+   
+  }
+  
+  .peso input,
+  .altura input {
+    width: 100%;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(96, 96, 102, 0.295);
+  }
+  
+  .imc {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .imc label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .imc input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .condicion-fisica {
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .condicion-fisica label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .condicion-fisica select {
+    width: 100%;
+    padding: 5px;
+    color: white;
+    border: 1px solid rgba(182, 70, 86, 1);
+    border-radius: 5px;
+    appearance: none; 
+    background-color: rgba(96, 96, 102, 0.295);
+    font-family: 'Poppins', sans-serif;
+    background-image: url('data:image/svg+xml;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C9B03gAAAAASUVORK5CYII='); 
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+    cursor: pointer;
+  }
+  
+  .condicion-fisica select:focus {
+    outline: none;
+    border: 1px solid rgba(182, 70, 86, 1);
+  }
+  .btn-enviar {
+    background-color: rgba(182, 70, 86, 1);; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn-enviar:hover {
+    background-color: rgba(182, 70, 86, 1);; 
+  }
+  
+   
