@@ -8,10 +8,10 @@ import './App.css'
 const App = () => {
   return (
     <div className='Cuadro'>
-      {/* <Entrenadores/> */}
-      {/* <PerfilEntrenador/> */}
-      {/* <BarraDeNavegacion/> */}
-      <Asistencia/>
+      {/* <Entrenadores/>
+      <PerfilEntrenador/> */}
+      <BarraDeNavegacion/>
+      {/* <Asistencia/> */}
     </div>
     
   )

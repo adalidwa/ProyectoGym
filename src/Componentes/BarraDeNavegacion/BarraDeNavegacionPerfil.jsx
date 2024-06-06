@@ -1,15 +1,14 @@
 import React from "react";
 import "./BarraDeNavegacionPerfil.css";
-import FotoBarra from "../img/FotoEt.png";
 
-const BarraDeNavegacionPerfil = () => {
+const BarraDeNavegacionPerfil = ({ name, avatar }) => {
   return (
-    <div class="BarraNavegacionPerfil">
-      <div class="BarraDeNavegacionContenido">
-        <div class="BarraDeNavegacionFoto">
-          <img src={FotoBarra} alt="Foto de perfil" />
+    <div className="BarraNavegacionPerfil">
+      <div className="BarraDeNavegacionContenido">
+        <div className="BarraDeNavegacionFoto">
+          <img src={avatar} alt="Foto de perfil" />
         </div>
-        <p>Jhovany</p>
+        <p>{name}</p>
       </div>
       <hr />
     </div>
