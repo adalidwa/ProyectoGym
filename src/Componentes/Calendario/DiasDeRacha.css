@@ -8,13 +8,14 @@
 }
 .DiasRachaTexto{
     /* background-color: blueviolet; */
-    width: 120px;
-    height: 71px;
+    width: 113px;
+    height: 100px;
 }
 .DiasRachaTexto p{
     /* background-color: blue; */
-    font-size: 20px;
+    font-size: 35px;
     margin: 0px;
+    width: 143px;
 }
 .DiasRachaImg{
     /* background-color: brown; */

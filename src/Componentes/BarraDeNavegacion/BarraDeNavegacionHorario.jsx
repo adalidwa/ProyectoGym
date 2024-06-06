@@ -1,6 +1,6 @@
 import React from "react";
 import "./BarraDeNavegacionHorario.css";
-import RelojDeArena from "../assets/RelojDeArena.png";
+import RelojDeArena from "../img/RelojDeArena.png";
 const BarraDeNavegacionHorario = () => {
   return (
     <div className="BarraHorario">

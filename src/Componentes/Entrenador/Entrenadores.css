@@ -1,0 +1,7 @@
+.entrenador{
+    /* background-color: aqua; */
+    width: 229px;
+    height: 722px;
+    display: flex;
+    flex-direction: column;
+}

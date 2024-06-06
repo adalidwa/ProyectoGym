@@ -2,7 +2,7 @@
     /* background-color: cadetblue; */
     width: 159px;
     height: 84px;
-    margin: 40px 10px 10px 10px;
+    margin: 40px 10px 0px 10px;
 }
 
 .BarraDeNavegacionContenido {
@@ -21,11 +21,12 @@
     border-radius: 50%;
     width: 58px;
     height: 56px;
+    margin: 5px;
 }
 
 .BarraNavegacionPerfil p {
-    font-size: 20px;
-    margin: 0 0 0 10px;
+    font-size: 25px;
+    margin: 0 0 0 24px;
 }
 
 .BarraNavegacionPerfil hr {

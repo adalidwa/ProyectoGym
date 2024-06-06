@@ -5,7 +5,7 @@ const CalendarioDeAsistencias = () => {
   return (
     <div className="Calendario">
         <div className="CalendarioTitulo">
-            <h2>Calendario De Asistencia</h2>
+            <h5>Calendario De Asistencia</h5>
             <div className="Meses">
                 <span className="FlechaIzq">&lt;</span>
                 <span className="MesNombre">Junio</span>

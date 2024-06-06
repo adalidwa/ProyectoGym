@@ -1,12 +1,12 @@
 import React from 'react'
-import Racha from '../assets/Racha.png';
+import Racha from '../img/Racha.png';
 import './DiasDeRacha.css';
 
 const DiasDeRacha = () => {
   return (
     <div className='DiasRacha'>
         <div className='DiasRachaTexto'>
-            <p>2</p>
+            <p>2 </p>
             <p>Dias de racha</p>
         </div>
         <div className='DiasRachaImg'>

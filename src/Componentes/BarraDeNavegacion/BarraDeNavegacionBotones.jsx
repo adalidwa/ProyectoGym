@@ -1,9 +1,9 @@
 import React from "react";
 import "./BarraDeNavegacionBotones.css";
-import BuzonSugerencia from "../assets/BuzonSugerencias.png";
-import Calendario from "../assets/Calendario.png";
-import Mancuerna from "../assets/Mancuerna.png";
-import Suplementos from "../assets/Suplementos.png";
+import BuzonSugerencia from "../img/BuzonSugerencias.png";
+import Calendario from "../img/Calendario.png";
+import Mancuerna from "../img/Mancuerna.png";
+import Suplementos from "../img/Suplementos.png";
 
 const BarraDeNavegacionBotones = () => {
   return (

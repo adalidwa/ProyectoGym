@@ -7,15 +7,18 @@
     text-align: center;
     
 }
-.CalendarioTitulo h2{
-    font-size: 25px;
+.CalendarioTitulo h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
     width: 307px;
     height: 32px;
-    margin: 0px;
+    margin: 0px 0px 0px 15px;
 }
 
 .Meses {
-    display: flex;
+    
     justify-content: center;
     align-items: center;
 }
@@ -32,8 +35,8 @@
 }
 
 .MesNombre {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 40px;
+    /* font-weight: bold; */
 }
 .Semana, .dias {
     display: flex;

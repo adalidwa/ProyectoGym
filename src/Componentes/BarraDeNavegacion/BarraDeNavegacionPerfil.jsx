@@ -1,6 +1,6 @@
 import React from "react";
 import "./BarraDeNavegacionPerfil.css";
-import FotoBarra from "../assets/FotoEt.png";
+import FotoBarra from "../img/FotoEt.png";
 
 const BarraDeNavegacionPerfil = () => {
   return (

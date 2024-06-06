@@ -1,5 +1,5 @@
 import React from 'react'
-import CalendarioDeAsistencias from './CalendarioDeAsistencias';
+import CalendarioDeAsistencias from './CalendarioDeAsistencias.jsx';
 import DiasDeRacha from './DiasDeRacha.jsx';
 import InformacionAsistencia from './InformacionAsistencia.jsx';
 import './Asistencia.css';

@@ -1,10 +1,10 @@
 .DatosPerf h3{
     /* background-color: aquamarine; */
-    font-size: 15px;
+    font-size: 20px;
     margin: 4px 0px 1px 0px;
     color: white;
-    width: 189px;
-    height: 26px;
+    width: 123px;
+    height: 24px;
 }
 .DatosPerf p{
     /* background-color: blueviolet; */
@@ -12,7 +12,7 @@
     color: white;
     width: 266px;
     height: 108px;
-    font-size: 12px;
+    font-size: 15px;
 }
 .DatosPerf hr{
     width: 266px;
