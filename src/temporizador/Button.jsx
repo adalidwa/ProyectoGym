@@ -1,10 +1,12 @@
 import React from "react"
 import "./Button.css"
 
-function Button(){
+function Button({ startTimer }){
     return (
         <div className="ContenedorB">
-            <button className="IniciarTime">Iniciar</button>
+            <button className="IniciarTime" onClick={startTimer}>
+                Iniciar
+            </button>
         </div>
     )
 }

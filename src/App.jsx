@@ -14,9 +14,9 @@ function App() {
     <>
       
       {/* <Mensaje/> */}
-      {/* <Card/>  */}
+      {/* <Card/>   */}
       {/* <TarjetaRutina/>  */}
-      <TarjetaTemporizador/>
+      <TarjetaTemporizador/> 
     </>
   )
 }
