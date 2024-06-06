@@ -14,14 +14,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    /* background-color: aqua; */
+    flex-direction: column;    
 }
 
 .BarraDeNavegacionFoto img {
     border-radius: 50%;
     width: 58px;
     height: 56px;
-    margin: 5px;
+    margin: 0px;
 }
 
 .BarraNavegacionPerfil p {
@@ -32,4 +33,12 @@
 .BarraNavegacionPerfil hr {
     width: 159px;
     margin-top: 15px; 
+}.BarraDeNavegacionFoto button{
+    background-color: transparent;
+    font-size: 15px;
+    width: 50px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

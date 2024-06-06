@@ -7,6 +7,7 @@ const BarraDeNavegacionPerfil = ({ name, avatar }) => {
       <div className="BarraDeNavegacionContenido">
         <div className="BarraDeNavegacionFoto">
           <img src={avatar} alt="Foto de perfil" />
+          <button>Editar</button>
         </div>
         <p>{name}</p>
       </div>
