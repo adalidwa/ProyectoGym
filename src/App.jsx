@@ -5,6 +5,7 @@ import './App.css'
 import Mensaje from './mensajeMotivación/Mensaje'
 import Card from './graficaDeEvaluacion/Card'
 import TarjetaRutina from './rutinaAsignada/TarjetaRutina'
+import TarjetaTemporizador from './temporizador/TarjetaTemporizador'
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       
       {/* <Mensaje/> */}
       {/* <Card/>  */}
-      <TarjetaRutina/> 
+      {/* <TarjetaRutina/>  */}
+      <TarjetaTemporizador/>
     </>
   )
 }
