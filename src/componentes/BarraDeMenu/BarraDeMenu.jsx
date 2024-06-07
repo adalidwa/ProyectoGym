@@ -4,7 +4,7 @@ import BarraDeMenuBotones from "./BarraDeMenuBotones.jsx";
 import BarraDeMenuHorario from "./BarraDeMenuHorario.jsx";
 import "./BarraDeMenu.css";
 
-const BarraDeMenu = () => {
+const BarraDeMenu = ({isVisible }) => {
   const [profile, setProfile] = useState({ name: "Jhovany", avatar: "../img/FotoEt.png" });
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const BarraDeMenu = () => {
   }, []);
 
   return (
-    <div className="BarraMenu">
+    <div className={`BarraMenu ${isVisible ? 'visible' : ''}`}>
       <BarraDeMenuPerfil name={profile.name} avatar={profile.avatar} />
       <BarraDeMenuBotones />
       <BarraDeMenuHorario />

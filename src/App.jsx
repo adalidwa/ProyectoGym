@@ -11,9 +11,9 @@ const App = () => {
     <div className="cuadro">
       <BarraNavegacion />
       {/* <Entrenadores /> */}
-      <PerfilEntrenador/>
+      {/* <PerfilEntrenador/> */}
       {/* <BarraDeMenu /> */}
-      {/* <Asistencia/> */}
+      <Asistencia/>
     </div>
   );
 };
