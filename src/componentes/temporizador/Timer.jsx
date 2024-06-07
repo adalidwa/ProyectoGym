@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import React from "react"
 import "./Timer.css"
-import Return from "../assets/Return.png"
+import Return from "../../assets/iconos/Return.png"
 
 function Timer( { isActive }){
-    // Estado para manejar el tiempo restante en segundos (15 minutos = 900 segundos)
+    
     const [timeLeft, setTimeLeft] = useState(900);
 
     useEffect(() => {
@@ -31,7 +31,7 @@ function Timer( { isActive }){
                 <p>{formatTime(timeLeft)}</p>
             </div>
             <div className="redondoMenor">
-                <img src={Return} alt="" />
+                <img className="return"src={Return} alt="" />
 
             </div>
         </div>

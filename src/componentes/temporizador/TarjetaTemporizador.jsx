@@ -17,10 +17,10 @@ function TarjetaTemporizador(){
         <>
             <div className="ContenedorTempo">
                 <Barranav/>
-                <div className="contenido">
-                <Encabezado/>
-                <Timer isActive={isActive} />
-                <Button startTimer={startTimer} />
+                <div className="contenidoTimer">
+                    <Encabezado/>
+                    <Timer isActive={isActive} />
+                    <Button startTimer={startTimer} />
                 </div>
                 
             </div>

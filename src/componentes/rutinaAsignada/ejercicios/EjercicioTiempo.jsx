@@ -1,7 +1,7 @@
 import React from "react"
 import "./EjercicioTiempo.css"
-import Tiempo from "../../assets/Reloj.png"
-import Calorias from "../../assets/Calorias.png"
+import Tiempo from "../../../assets/iconos/Reloj.png"
+import Calorias from "../../../assets/iconos/Calorias.png"
 
 function EjercicioTiempo (){
     return(

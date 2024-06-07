@@ -1,6 +1,6 @@
 import React from "react"
 import "./Opciones.css"
-import flecha from "../assets/flecha.png"
+import flecha from "../../assets/iconos/flecha.png"
 
 function Opciones(){
     return (

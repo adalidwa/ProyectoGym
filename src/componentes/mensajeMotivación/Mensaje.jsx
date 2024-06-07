@@ -1,6 +1,6 @@
 import React from "react"
 import "./Mensaje.css"
-import Fuerza from "../assets/Fuerza.png"
+import Fuerza from "../../assets/iconos/Fuerza.png"
 import { useEffect,useState } from "react";
 
 function Mensaje (){

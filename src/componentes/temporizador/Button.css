@@ -1,7 +1,8 @@
 .ContenedorB {
     width: 327px;
     height: 48px;
-    margin-top: 90px;
+    top: 60px;
+    position: relative;
 
 }
  .IniciarTime{

@@ -1,6 +1,6 @@
 import React from "react"
 import "./DescripcionEjercicio.css"
-import ejerWoman from "../../assets/ejerWoman.png"
+import ejerWoman from "../../../assets/imagenes/ejerWoman.png"
 
 function DescripcionEjercicio (){
     return(

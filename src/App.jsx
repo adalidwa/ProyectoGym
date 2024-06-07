@@ -2,10 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Mensaje from './mensajeMotivación/Mensaje'
-import Card from './graficaDeEvaluacion/Card'
-import TarjetaRutina from './rutinaAsignada/TarjetaRutina'
-import TarjetaTemporizador from './temporizador/TarjetaTemporizador'
+import Mensaje from './componentes/mensajeMotivación/Mensaje'
+import Card from './componentes/graficaDeEvaluacion/Card'
+import TarjetaRutina from './componentes/rutinaAsignada/TarjetaRutina'
+import TarjetaTemporizador from './componentes/temporizador/TarjetaTemporizador'
 
 
 function App() {
@@ -13,10 +13,10 @@ function App() {
   return (
     <>
       
-      {/* <Mensaje/> */}
+      {/* <Mensaje/>   */}
       {/* <Card/>   */}
-      {/* <TarjetaRutina/>  */}
-      <TarjetaTemporizador/> 
+      {/* <TarjetaRutina/>   */}
+      <TarjetaTemporizador/>  
     </>
   )
 }

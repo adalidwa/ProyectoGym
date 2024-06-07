@@ -1,7 +1,7 @@
 import React from "react"
 import "./Card.css"
 import Grafica from "./Grafica";
-import ejerPortada from "../assets/ejerPortada.png"
+import ejerPortada from "../../assets/imagenes/ejerPortada.png"
 import Barranav from "../encabezado/Barranav";
 
 function Card (){
