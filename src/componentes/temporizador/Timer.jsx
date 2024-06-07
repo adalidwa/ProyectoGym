@@ -3,7 +3,7 @@ import React from "react"
 import "./Timer.css"
 import Return from "../../assets/iconos/Return.png"
 
-function Timer( { isActive }){
+function Timer( { isActive, onFinish }){
     
     const [timeLeft, setTimeLeft] = useState(900);
 
@@ -12,12 +12,19 @@ function Timer( { isActive }){
 
         if (isActive && timeLeft > 0) {
             intervalId = setInterval(() => {
-                setTimeLeft(prevTime => prevTime - 1);
+                setTimeLeft(prevTime => {
+                    if (prevTime <= 1) {
+                        clearInterval(intervalId);
+                        onFinish();
+                        return 0;
+                    }
+                    return prevTime - 1;
+                });
             }, 1000);
         }
 
         return () => clearInterval(intervalId);
-    }, [isActive, timeLeft]);
+    }, [isActive, timeLeft, onFinish]);
 
     const formatTime = (time) => {
         const minutes = Math.floor(time / 60);
@@ -25,15 +32,15 @@ function Timer( { isActive }){
         return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
     };
 
+
     return (
         <div className="contenedor">
             <div className="redondoMayor">
                 <p>{formatTime(timeLeft)}</p>
             </div>
-            <div className="redondoMenor">
+            {/* <div className="redondoMenor">
                 <img className="return"src={Return} alt="" />
-
-            </div>
+            </div> */}
         </div>
 
     )

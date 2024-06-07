@@ -9,9 +9,19 @@ import { useState, useEffect } from "react";
 function TarjetaTemporizador(){
     
     const [isActive, setIsActive] = useState(false);
+    const [isFinished, setIsFinished] = useState(false);
 
-    const startTimer = () => {
-        setIsActive(true);
+    const toggleTimer = () => {
+        if (isFinished) {
+            setIsFinished(false);
+            setIsActive(false);
+        } else {
+            setIsActive(prevIsActive => !prevIsActive);
+        }
+    };
+    const handleFinish = () => {
+        setIsActive(false);
+        setIsFinished(true);
     };
     return(
         <>
@@ -19,8 +29,8 @@ function TarjetaTemporizador(){
                 <Barranav/>
                 <div className="contenidoTimer">
                     <Encabezado/>
-                    <Timer isActive={isActive} />
-                    <Button startTimer={startTimer} />
+                    <Timer isActive={isActive} onFinish={handleFinish} />
+                    <Button isActive={isActive} isFinished={isFinished} toggleTimer={toggleTimer} />
                 </div>
                 
             </div>

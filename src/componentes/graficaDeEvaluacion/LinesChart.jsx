@@ -47,11 +47,9 @@ var midata = {
 
 var misoptions = {
     scales : {
-        y : {
-            min : 0
-            
-        },
+        
         y:{
+            min : 0 ,
             ticks: {
                 color: '#FFFFFF', 
             },
