@@ -13,10 +13,10 @@ function App() {
   return (
     <>
       
-      {/* <Mensaje/>   */}
-      {/* <Card/>   */}
-      {/* <TarjetaRutina/>   */}
-      <TarjetaTemporizador/>  
+      {/* <Mensaje/> */}
+      {/* <Card/>  */}
+       <TarjetaRutina/>
+      {/* <TarjetaTemporizador/> */}
     </>
   )
 }

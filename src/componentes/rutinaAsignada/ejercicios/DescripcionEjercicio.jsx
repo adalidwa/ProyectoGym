@@ -2,15 +2,15 @@ import React from "react"
 import "./DescripcionEjercicio.css"
 import ejerWoman from "../../../assets/imagenes/ejerWoman.png"
 
-function DescripcionEjercicio (){
+function DescripcionEjercicio ({ nombre, imagen }){
     return(
         <div className="ContenedorM">
             <div className="contenedorImagen">
-                <img src={ejerWoman} alt="" />
+                <img src={imagen}alt="" />
             </div>
             <div className="contenedorTitulo">
                 <h1>
-                    Barbell Rows
+                {nombre}
                 </h1>
             </div>
         </div>
