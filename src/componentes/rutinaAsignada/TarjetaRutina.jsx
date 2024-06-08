@@ -23,7 +23,7 @@ function TarjetaRutina(){
     const obtenerEjercicios = () => {
         const idsAleatorios = generarIdsAleatorios(cantidadTarjetas, maxId);
 
-        // Realizar solicitudes a la API para obtener los ejercicios
+        
         const fetchEjercicios = async () => {
             const ejerciciosData = await Promise.all(
                 idsAleatorios.map(id =>

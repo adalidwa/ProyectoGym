@@ -5,7 +5,7 @@ import Return from "../../assets/iconos/Return.png"
 
 function Timer( { isActive, onFinish }){
     
-    const [timeLeft, setTimeLeft] = useState(900);
+    const [timeLeft, setTimeLeft] = useState(360);
 
     useEffect(() => {
         let intervalId;

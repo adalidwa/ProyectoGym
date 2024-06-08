@@ -1,5 +1,6 @@
+import React, { useEffect, useState } from 'react';
 import { Line } from "react-chartjs-2";
-import{
+import {
     Chart as ChartJS,
     CategoryScale,
     LinearScale,
@@ -9,8 +10,7 @@ import{
     Tooltip,
     Legend,
     Filler,
-}   from 'chart.js';
-import { color } from "chart.js/helpers";
+} from 'chart.js';
 
 ChartJS.register(
     CategoryScale,
@@ -23,50 +23,72 @@ ChartJS.register(
     Filler
 );
 
+export default function LinesChart() {
+    const [chartData, setChartData] = useState({ labels: [], datasets: [] });
+    const [minY, setMinY] = useState(0); 
 
-var beneficios = [0, 56, 60, 65, 58, 50, 60];
-var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio"];
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch('https://6611d8dc95fdb62f24edc940.mockapi.io/api/v2/users');
+                const data = await response.json();
 
-var midata = {
-    labels: meses,
-    datasets: [ 
-        {
-            label: 'Peso vs Tiempo',
-            data: beneficios,
-            tension: 0.5,
-            fill : true,
-            borderColor: '#C04551',
-            backgroundColor: 'rgba(255, 99, 132, 0.5)',
-            pointRadius: 5,
-            pointBorderColor: '#C04551',
-            pointBackgroundColor: '#C04551',
-        },
+                const randomIndex = Math.floor(Math.random() * data.length);
+                const selectedUser = data[randomIndex];
+
         
-    ],
-};
+                const minPeso = Math.min(...selectedUser.pesos);
 
-var misoptions = {
-    scales : {
-        
-        y:{
-            min : 0 ,
-            ticks: {
-                color: '#FFFFFF', 
+                setMinY(minPeso - 10);
+
+                const mesesSet = new Set();
+                const datasets = [{
+                    label: 'peso vs tiempo',
+                    data: selectedUser.pesos,
+                    tension: 0.5,
+                    fill: true,
+                    borderColor: '#C04551',
+                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    pointRadius: 5,
+                    pointBorderColor: '#C04551',
+                    pointBackgroundColor: '#C04551',
+                }];
+
+                selectedUser.meses.forEach((mes) => mesesSet.add(mes));
+
+                const meses = Array.from(mesesSet);
+
+                setChartData({
+                    labels: meses,
+                    datasets: datasets,
+                });
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchData();
+    }, []);
+
+    const options = {
+        scales: {
+            y: {
+                min: minY, 
+                ticks: {
+                    color: '#FFFFFF',
+                },
+                grid: {
+                    color: '#D5D5D5',
+                },
             },
-            grid: {
-                color: '#D5D5D5'
-            }
+            x: {
+                ticks: { color: '#FFFFFF' },
+                grid: {
+                    color: '#28282B',
+                },
+            },
         },
-        x: {
-            ticks: { color: '#FFFFFF'},
-            grid : {
-                color:'#28282B'
-            }
-        },
-        
-    }
-};
+    };
 
-export default function LinesChart(){
-    return <Line data={midata} options={misoptions}/>
+    return <Line data={chartData} options={options} />;
 }

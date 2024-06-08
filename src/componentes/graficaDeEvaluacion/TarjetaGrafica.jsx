@@ -1,5 +1,5 @@
 import React from "react"
-import "./Card.css"
+import "./TarjetaGrafica.css"
 import Grafica from "./Grafica";
 import ejerPortada from "../../assets/imagenes/ejerPortada.png"
 import Barranav from "../encabezado/Barranav";

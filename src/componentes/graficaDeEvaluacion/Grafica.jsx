@@ -7,7 +7,7 @@ function Grafica (){
         <div className="contenedorM">
             <h1>EVALUACIONES FÍSICAS</h1>
             <div className="contenedorGrafica">
-                <div className="bg-light mx-auto px-2 border border-2 border-primary" style={{width:"362px", height:"244px"}}>
+                <div className="contenedorGrafica" style={{width:"362px", height:"244px"}}>
                     <LinesChart />
                 </div>
             </div>
