@@ -6,12 +6,13 @@
 }
 
 .contenedorMinitarjeta{
-    width: 335px;
+    width: 375px;
     height: 394px;
-    margin-top: 10px;
-    margin-left: 25px;
+    
     display: flex;
     flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 
 }

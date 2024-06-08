@@ -16,10 +16,11 @@ function generarIdsAleatorios(cantidad, maxId) {
   
 function TarjetaRutina(){
     const [ejercicios, setEjercicios] = useState([]);
-    const cantidadTarjetas = 4; // Cantidad de mini tarjetas que deseas mostrar
-    const maxId = 22; // ID máximo de la API
+    const [mostrarEjercicios, setMostrarEjercicios] = useState(false);
+    const cantidadTarjetas = 4; 
+    const maxId = 22; 
 
-    useEffect(() => {
+    const obtenerEjercicios = () => {
         const idsAleatorios = generarIdsAleatorios(cantidadTarjetas, maxId);
 
         // Realizar solicitudes a la API para obtener los ejercicios
@@ -35,22 +36,28 @@ function TarjetaRutina(){
         };
 
         fetchEjercicios();
-    }, []);
+    };
+
+    const handleOpcionesClick = () => {
+        setMostrarEjercicios(!mostrarEjercicios);
+        if (!mostrarEjercicios) {
+            obtenerEjercicios();
+        }
+    };
     
     return(
         <>
         <div className="contenedorT">
             <Barranav/>
-            <Opciones/>
-            <div className="contenedorMinitarjeta">
-            {ejercicios.map(ejercicio => (
-                <MiniTarjeta key={ejercicio.id} ejercicio={ejercicio} />
-          ))}
-             
-              
-            </div>
-            <Opciones/>
-            <Opciones/>
+            <Opciones onClick={handleOpcionesClick} isOpen={mostrarEjercicios}/>
+            {mostrarEjercicios && (
+                <div className="contenedorMinitarjeta">
+                    {ejercicios.map(ejercicio => (
+                        <MiniTarjeta key={ejercicio.id} ejercicio={ejercicio} />
+                    ))}
+                </div>
+            )}
+            
         </div>
         </>
 
