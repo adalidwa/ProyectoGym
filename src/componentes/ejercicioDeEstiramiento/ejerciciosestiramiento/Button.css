@@ -1,0 +1,26 @@
+.contenedorBoton{
+    width: 154px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 5px;
+
+}
+.botones{
+    width: 114px;
+    height: 22px;
+    border-radius: 80px;
+    background-color: #C04551;
+    color: #FFFFFF;
+    font-size:10px ;
+    margin: 0px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    
+}
+.botones:hover {
+    background-color: #1D4FAE; 
+    color: #FFFFFF;
+  }

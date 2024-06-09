@@ -1,0 +1,20 @@
+.contenedorRecuperacion{
+    width: auto;
+    height: 37px;
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+    margin-top: 40px;
+    margin-left: 25px;
+
+}
+.contenedorRecuperacion img{
+    width: 6px;
+    height: 11px;
+    
+}
+.contenedorRecuperacion h1{
+    font-size: 17px;
+    color: #fff;
+    
+}
