@@ -1,0 +1,33 @@
+.BotonesEntrenador {
+    height: 230px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Botones2 {
+    padding: 15px;
+    width: 210px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #161515;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    border: 2px dashed #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Botones2:hover {
+    background-color: #a81d1d;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}

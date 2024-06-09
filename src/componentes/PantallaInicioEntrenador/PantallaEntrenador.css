@@ -1,0 +1,25 @@
+.ContenedorPantallaEntrenador{
+    width:360px ;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    background-color: rgb(21, 21, 21);
+}
+
+.ContenedorImagenPE{
+    position: relative;
+    display: inline-block;
+}
+.ContenedorImagenPE img {
+    width: 360px;
+    height: 330px;
+}
+.PerfilEntrenador {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}

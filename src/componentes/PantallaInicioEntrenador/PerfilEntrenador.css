@@ -1,0 +1,57 @@
+.PerfilEntrenador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.511);
+    height: 300px;
+    width: 300px;
+    border-radius: 80px;
+    margin-left: 5%;
+}
+  
+  .contenedorInfoEntrenador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    width: 400px;
+  }
+  
+  .Bienvenido2 {
+    color: white;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 35px;
+    margin-top: 20px; 
+    margin-bottom: 2px;
+  }
+  
+  .contenedorImagen2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .contenedorImagen2 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .ContenedorNombreEntrenador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 200px;
+  }
+  
+  .nombreEntrenador {
+    color: white;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 28px;
+  }
