@@ -4,9 +4,9 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.511);
-  height: 380px;
-  width: 350px;
-  margin: 10px auto;
+  height: 310px;
+  width: 310px;
+  margin-left: 15px;
   border-radius: 80px;
 }
 
@@ -22,7 +22,7 @@
 .Bienvenido3 {
   color: white;
   font-family: 'Alumni Sans', sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 5px; 
 }
 
@@ -47,12 +47,12 @@
   align-items: center;
   justify-content:space-between;
   height: 45px;
-  width: 250px;
+  width: 120px;
 }
 
 .nombreNutricionista {
   color: white;
   font-family: 'Alumni Sans', sans-serif;
-  font-size: 35px;
+  font-size: 30px;
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import PerfilNutricionista from "./PerfilNutricionista";
 import BotonesNutricionista from "./BotonesNutricionista";
-import Cabecera from "./Cabecera/Cabecera";
+import Cabecera from "../Cabecera/Cabecera";
 import './PantallaNutricionista.css';
 function PantallaNutricionista()
 {
@@ -9,7 +9,7 @@ function PantallaNutricionista()
     return(
         <div className="ContenedorPantallaNutricionista">
             <Cabecera/>
-            <div className="ContenedorImagen2">
+            <div className="ContenedorImagen3">
             <img src={imageUrl} alt="Descripción de la imagen" />
                 <PerfilNutricionista/>
             </div>

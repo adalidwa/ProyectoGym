@@ -1,13 +1,13 @@
 .BotonesNutricionista {
-    height: 300px;
-    width: 280px;
+    height: 230px;
+    width: 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .Botones3 {

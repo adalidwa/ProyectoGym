@@ -1,6 +1,6 @@
 .ContenedorPantallaNutricionista{
-    width:375px ;
-    height: 800px;
+    width:360px ;
+    height: 650px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -8,14 +8,13 @@
     position: relative;
     background-color: rgb(21, 21, 21);
 }
-
 .ContenedorImagen3{
     position: relative;
     display: inline-block;
 }
 .ContenedorImagen3 img {
-    width: 375px;
-    height: 380px;
+    width: 360px;
+    height: 335px;
 }
 .PerfilNutricionista {
     position: absolute;
