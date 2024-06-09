@@ -1,5 +1,5 @@
 import React from "react";
-import './BotonesCliente.css'
+import './BotonesBotonesEntrenador.css'
 
 const BotonesEntrenador = () =>{
     return (

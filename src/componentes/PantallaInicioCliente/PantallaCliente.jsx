@@ -1,7 +1,7 @@
 import React from "react";
 import PerfilCliente from "./PerfilCliente";
-import BotonesCliente from "./BotonesCliente"
-import Cabecera from "./Cabecera/Cabecera";
+import BotonesCliente from "./BotonesCliente";
+import Cabecera from "../Cabecera/Cabecera";
 import './PantallaCliente.css';
 function PantallaCliente()
 {
@@ -13,7 +13,6 @@ function PantallaCliente()
             <img src={imageUrl} alt="Descripción de la imagen" />
                 <PerfilCliente/>
             </div>
-
             <BotonesCliente/>
         </div>
     );

@@ -3,21 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Cabecera from './componentes/Cabecera/Cabecera'
-import PerfilCliente from './componentes/PerfilCliente'
-import BotonesCliente from './componentes/BotonesCliente'
-import Novedades from './componentes/TimelineNovedades/Novedades'
-import RecomendacionDieta from './componentes/RecomendacionDieta/RecomendacionDieta'
-import PantallaCliente from './componentes/PantallaCliente'
-import PantallaNutricionista from './componentes/PantallaNutricionista'
-import PantallaEntrenador from './componentes/PantallaEntrenador'
+import PantallaCliente from './componentes/PantallaInicioCliente/PantallaCliente'
 import TimelineNovedades from './componentes/TimelineNovedades/TimelineNovedades'
 
 function App() {
   
   return (
     <div>
+      <Cabecera/>
       <PantallaCliente/>
-      <TimelineNovedades/>
     </div>
   );
 }

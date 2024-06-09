@@ -1,0 +1,33 @@
+.BotonesCliente {
+    height: 300px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Botones {
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #161515;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+    color: white;
+    border: 2px dashed #ffcccb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Botones:hover {
+    background-color: #a81d1d;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
