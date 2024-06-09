@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "subtitulo": "Controlar el tamaño de las porciones",
+        "descripcion": "Asegúrate de controlar el tamaño de las porciones para evitar comer en exceso o subestimar tus necesidades calóricas. Escucha las señales de hambre y saciedad de tu cuerpo y come conscientemente.",
+        "imagenUrl": "https://www.gourmet.com.co/wp-content/uploads/2021/03/porciones-de-comida.jpg"
+    },
+    {
+        "id": "2",
+        "subtitulo": "Beber suficiente agua",
+        "descripcion": "Mantente hidratado bebiendo al menos 8 vasos de agua al día. La hidratación adecuada es esencial para la salud general y puede ayudar a controlar el hambre.",
+        "imagenUrl": "https://st4.depositphotos.com/20363444/31232/i/450/depositphotos_312329938-stock-photo-smiling-girl-holding-drinking-water.jpg"
+    },
+    {
+        "id": "3",
+        "subtitulo": "Incluir frutas y verduras",
+        "descripcion": "Asegúrate de incluir una variedad de frutas y verduras en tu dieta diaria. Estos alimentos son ricos en vitaminas, minerales y fibra.",
+        "imagenUrl": "https://img.freepik.com/fotos-premium/plato-colorido-verduras-frescas-frutas-plantas-generadas-ia_941600-12783.jpg"
+    },
+    {
+        "id": "4",
+        "subtitulo": "Evitar alimentos procesados",
+        "descripcion": "Limita el consumo de alimentos procesados que suelen ser altos en azúcares añadidos, grasas saturadas y sodio.",
+        "imagenUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSoe5TLZpPy_jPV8Mo6Xvivkg2-obsctR7qQ&s"
+    },
+    {
+        "id": "5",
+        "subtitulo": "Elegir granos enteros",
+        "descripcion": "Opta por granos enteros en lugar de granos refinados. Los granos enteros contienen más fibra y nutrientes esenciales.",
+        "imagenUrl": "https://campograndeperu.com/wp-content/uploads/2024/03/avena-con-arandanos-2-compressed.jpg"
+    },
+    {
+        "id": "6",
+        "subtitulo": "Practicar actividad física",
+        "descripcion": "Incorpora al menos 30 minutos de actividad física moderada en tu rutina diaria para mantener un peso saludable y mejorar la salud cardiovascular.",
+        "imagenUrl": "https://img.freepik.com/fotos-premium/vista-lateral-personas-corriendo-parque_23-2147600756.jpg"
+    },
+    {
+        "id": "7",
+        "subtitulo": "Dormir lo suficiente",
+        "descripcion": "Asegúrate de dormir entre 7-9 horas por noche. El sueño adecuado es crucial para la recuperación y el funcionamiento óptimo del cuerpo.",
+        "imagenUrl": "https://img.freepik.com/foto-gratis/nina-feliz-despertando-estirando-brazos-cama-manana_158595-7345.jpg"
+    },
+    {
+        "id": "8",
+        "subtitulo": "Reducir el estrés",
+        "descripcion": "Encuentra maneras de gestionar el estrés a través de actividades como el yoga, la meditación o simplemente paseos al aire libre.",
+        "imagenUrl": "https://img.freepik.com/fotos-premium/primer-plano-mujer-joven-practicando-yoga-ambiente-tranquilo-al-aire-libre-ia-generativa_697880-2555.jpg"
+    },
+    {
+        "id": "9",
+        "subtitulo": "Limitar el consumo de alcohol",
+        "descripcion": "Consume alcohol con moderación, si es que lo haces. El exceso de alcohol puede llevar a problemas de salud a largo plazo.",
+        "imagenUrl": "https://images.ecestaticos.com/sI_JlzqX0e04bwETPzRWUSdHQtg=/0x0:994x559/1200x675/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F235%2Fa4b%2F25b%2F235a4b25bfcfc2924c1a0e10cac4641d.jpg"
+    },
+    {
+        "id": "10",
+        "subtitulo": "Planificar las comidas",
+        "descripcion": "Planifica tus comidas y meriendas con antelación para evitar elecciones impulsivas y poco saludables.",
+        "imagenUrl": "https://www.hogarmania.com/archivos/202309/menu-semanal-familiar-3-XxXx80.jpg"
+    },
+    {
+        "id": "11",
+        "subtitulo": "Cocinar en casa",
+        "descripcion": "Cocina más en casa para tener control sobre los ingredientes y métodos de cocción. Esto puede ayudarte a comer más sano.",
+        "imagenUrl": "https://st.depositphotos.com/62628780/59708/i/450/depositphotos_597080062-stock-photo-eat-cook-enjoy-family-young.jpg"
+    },
+    {
+        "id": "12",
+        "subtitulo": "Leer las etiquetas",
+        "descripcion": "Aprende a leer las etiquetas nutricionales para tomar decisiones informadas sobre los alimentos que consumes.",
+        "imagenUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/semana/JWJH2LYMPJCCTHDWXTF3SUZ6ZI.jpg"
+    },
+    {
+        "id": "13",
+        "subtitulo": "Controlar las emociones",
+        "descripcion": "Identifica si comes por hambre emocional y busca alternativas saludables para lidiar con las emociones.",
+        "imagenUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/semana/BVTHCAL2NBB2HLOLAF6VL5FQVU.jpg"
+    },
+    {
+        "id": "14",
+        "subtitulo": "Evitar las dietas extremas",
+        "descripcion": "Evita las dietas extremas y de moda que prometen resultados rápidos. Opta por cambios sostenibles y a largo plazo.",
+        "imagenUrl": "https://portal.andina.pe/EDPfotografia/Thumbnail/2014/11/27/000271374W.jpg"
+    },
+    {
+        "id": "15",
+        "subtitulo": "Comer despacio",
+        "descripcion": "Come despacio y disfruta cada bocado. Esto puede ayudarte a sentirte satisfecho con menos comida.",
+        "imagenUrl": "https://www.eluniverso.com/resizer/6SOa_MKTX-PcsEhSVOrVaP5zs0Y=/1129x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/IPI4TWYUXFFUFOR4WZ4W7O6HOM.jpg"
+    },
+    {
+        "id": "16",
+        "subtitulo": "Incluir proteínas magras",
+        "descripcion": "Incorpora fuentes de proteínas magras como pollo, pescado, tofu y legumbres en tu dieta para apoyar el crecimiento muscular y la reparación.",
+        "imagenUrl": "https://img.freepik.com/fotos-premium/pollo-plancha-ensalada-arroz_434193-1280.jpg"
+    },
+    {
+        "id": "17",
+        "subtitulo": "Mantener una dieta equilibrada",
+        "descripcion": "Asegúrate de que tu dieta incluya un equilibrio de carbohidratos, proteínas y grasas saludables.",
+        "imagenUrl": "https://i0.wp.com/blog.dietbox.me/wp-content/uploads/2021/03/piramide-alimentar.png?ssl=1"
+    },
+    {
+        "id": "18",
+        "subtitulo": "Escuchar a tu cuerpo",
+        "descripcion": "Presta atención a las señales de tu cuerpo y come cuando tengas hambre y deja de comer cuando te sientas lleno.",
+        "imagenUrl": "https://institutodehipnosisypsicologia.com/wp-content/uploads/2023/08/Imagen1-3.jpg"
+    },
+    {
+        "id": "19",
+        "subtitulo": "Evitar el azúcar añadido",
+        "descripcion": "Reduce el consumo de azúcar añadido en tu dieta, ya que puede contribuir a problemas de salud como la obesidad y la diabetes.",
+        "imagenUrl": "https://img.freepik.com/foto-gratis/conjunto-grosella-roja-te-manzanilla-hierbas-azucar-hojas-menta-arandanos-frambuesas-tazon_176474-4717.jpg"
+    },
+    {
+        "id": "20",
+        "subtitulo": "Fomentar hábitos saludables en la familia",
+        "descripcion": "Promueve hábitos alimenticios saludables en tu hogar para que todos en tu familia se beneficien.",
+        "imagenUrl": "https://us.123rf.com/450wm/fizkes/fizkes2004/fizkes200401836/145069355-feliz-familia-joven-multirracial-con-hijas-peque%C3%B1as-cocinando-ensaladas-saludables-en-la-cocina.jpg?ver=6"
+    }
+]

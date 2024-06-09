@@ -1,4 +1,4 @@
-.contenedor{
+.contenedorCabecera{
     display: flex;
     height: 67px;
     width:100%;
@@ -14,6 +14,25 @@
     font-size: 40px;
     margin-left: 10px;
 }
-.barritas{
-    margin-right: 10px;
+
+.contenedorBotonesCabecera{
+    height: 45px;
+    width: 90px;
+    flex-direction: row;
+    display: flex;
+
 }
+.botonC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+  }
+  
+  .botonC img {
+    width: 35px;
+    height: auto;
+  }
