@@ -4,8 +4,8 @@
     width:100%;
     background-color: rgba(51, 54, 63, 0.94);
     flex-direction: row;
-    align-items: center;    /* alinear los items de manera vertival */
-    justify-content:space-between; /* alinear los items atraves de los ejes siendo row o column */
+    align-items: center;    
+    justify-content:space-between;
     color: white;
 }
 .titulo{
@@ -22,17 +22,18 @@
     display: flex;
 
 }
-.botonC {
+.BotonesCabecera {
     display: flex;
     justify-content: center;
+    background-color: transparent;
+    border-color: transparent;
     align-items: center;
     border-radius: 5px;
     height: 40px;
     width: 40px;
-    margin: 1px;
   }
   
-  .botonC img {
+  .BotonesCabecera img {
     width: 35px;
     height: auto;
   }

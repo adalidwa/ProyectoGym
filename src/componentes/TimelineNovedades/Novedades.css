@@ -1,19 +1,11 @@
-.ContenedorGeneral{
-    border-style: dashed; 
-    height: 550px;
-    width: 700px; 
-    border-radius: 20px; 
-}
 .ContenedorNovedades{
     display: flex;
-    height: 250px;
-    width: 600px;
-    /* background-color: blue; */
+    height: 215px;
+    width: 300px;
 }
 .contenedorFigura {
-    height: 250px;
-    width: 70px;
-    margin: 20px;
+    height: 240px;
+    width: 55px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,42 +13,43 @@
 }
 
 .contenedorTexto{
-    margin: 20px;
-    height: 250px;
-    width: 500px;
-    /* background-color: blueviolet; */
+    margin-top: 13px;
+    margin-right: 20px;
+    height: 210px;
+    width: 260px;
 }
 
 .circulo{
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
     background-color: rgb(133, 37, 37);
     border-radius: 100%;
 }
 
 .linea{
     margin: 5px;
-    height: 200px;
+    height: 180px;
     width: 3px;
     background-color: grey;
 }
 
-.Fecha{
+.FechaNovedad{
     font-family: 'Alumni Sans', sans-serif;
     margin: 0;
     color: grey;
+    font-size: 22px;
 
 }
 
 .Novedad{
     font-family: 'Alumni Sans', sans-serif;
     margin: 0;
+    font-size: 22px;
 }
 
-.Descripcion{
+.DescripcionNovedad{
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 22px;
-    font-weight:100px ;
-    margin: 5px;
-
+    margin: 0;
+    color: gray;
+    font-size: 18px;
 }
