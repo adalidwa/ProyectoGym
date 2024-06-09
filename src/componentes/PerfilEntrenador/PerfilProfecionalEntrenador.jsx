@@ -1,19 +1,16 @@
 import React from "react";
 import "./PerfilProfecionalEntrenador.css";
 
-const PerfilEntrenador = () => {
+const PerfilProfecionalEntrenador = ({ descripcion }) => {
   return (
     <div className="DatosPerf">
       <h3>PERFIL PROFESIONAL</h3>
       <p>
-        Personal trainer con grado en Ciencias de la actividad fisica y del
-        deporte y experiencia acreditable de trabajo en centros de fitness
-        impartiendo diversas especialidades tanto grupales como individuales
-        solidos conocimientos de fisioterapia y rehabilitacion de lesiones
+      {descripcion}
       </p>
       <hr />
     </div>
   );
 };
 
-export default PerfilEntrenador;
+export default PerfilProfecionalEntrenador;

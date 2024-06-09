@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from 'react-router-dom';
 import "./HorariosEntrenador.css";
 const HorarioEntrenador = () => {
   const [entrenadores, setEntrenadores] = useState([]);
@@ -23,16 +24,18 @@ const HorarioEntrenador = () => {
     <div className='HorarioTitulo'>
       <h1>Entrenadores</h1>
       {entrenadores.map(entrenador => (
-        <div className='Horario' key={entrenador.id}>
-          <div className='Imagen'>
-            <img src={entrenador.avatar} alt={`${entrenador.firstname} ${entrenador.lastname}`} />
+        <NavLink to={`/entrenador/${entrenador.id}`} key={entrenador.id}>
+          <div className='Horario'>
+            <div className='Imagen'>
+              <img src={entrenador.avatar} alt={`${entrenador.firstname} ${entrenador.lastname}`} />
+            </div>
+            <div className='DatosHorario'>
+              <h6>{`${entrenador.firstname} ${entrenador.lastname}`}</h6>
+              <p>{entrenador.time}</p>
+              <p>{entrenador.week}</p>
+            </div>
           </div>
-          <div className='DatosHorario'>
-            <h6>{`${entrenador.firstname} ${entrenador.lastname}`}</h6>
-            <p>{entrenador.time}</p>
-            <p>{entrenador.week}</p>
-          </div>
-        </div>
+        </NavLink>
       ))}
     </div>
   );
