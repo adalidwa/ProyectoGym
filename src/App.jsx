@@ -10,10 +10,10 @@ const App = () => {
   return (
     <div className="cuadro">
       <BarraNavegacion />
-      {/* <Entrenadores /> */}
+      <Entrenadores />
       {/* <PerfilEntrenador/> */}
       {/* <BarraDeMenu /> */}
-      <Asistencia/>
+      {/* <Asistencia/> */}
     </div>
   );
 };
