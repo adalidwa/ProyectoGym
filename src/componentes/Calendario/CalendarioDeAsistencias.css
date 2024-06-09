@@ -1,59 +1,50 @@
-.Calendario {
-    /* background-color: #620909; */
-    width: 337px;
-    height: 337px;
-}
-.CalendarioTitulo {
-    text-align: center;
-    
-}
-.CalendarioTitulo h5{
+.Calendario{
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
-    width: 307px;
-    height: 32px;
-    margin: 0px 0px 0px 15px;
+    flex-direction: column;
 }
-
-.Meses {
-    
-    justify-content: center;
-    align-items: center;
-}
-
-.FlechaIzq{
-    cursor: pointer;
-    margin: 0 110px 0px 0px;
-    font-size: 30px;
-}
-.FlechaDer{
-    cursor: pointer;
-    margin: 0 0px 0px 110px;
-    font-size: 30px;
-}
-
-.MesNombre {
-    font-size: 40px;
-    /* font-weight: bold; */
-}
-.Semana, .dias {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.Semana div, .dias div {
-    width: 14.28%;
-    text-align: center;
-    padding: 5px 0;
-}
-
-.dias div {
+.Calendario p{
+    font-size:40px;
     margin: 0px;
+    font-weight: bold;
 }
-
-.Dibujado {
-    background-color: #C04551;
-    border-radius: 50%;
+/* src/CustomCalendar.css */
+.react-calendar {
+    background-color: black; /* Cambiar el fondo del calendario */
+    text-align: center;
+  }
+  
+  .react-calendar__tile--active {
+    background: #C04551 !important; /* Cambiar el color del día seleccionado */
+    color: white !important;
+  }
+  
+  .react-calendar__tile {
+    background: black;
+    transition: background 0.3s ease;
+    color: white;
+    border: none;
+  }
+  
+  .react-calendar__tile:hover {
+    background: #C04551; /* Cambiar el color al pasar el ratón por encima */
+  }
+  
+  .react-calendar__navigation button {
+    background-color: black;
+    color: white; /* Cambiar el color de los botones de navegación */
+    border: none;
 }
+  .react-calendar__navigation button:disabled {
+    background-color: black;
+    border: none;
+  }
+  .react-calendar__month-view__days__day {
+    font-size: 20px; /* Aumenta el tamaño de la letra de los días */
+  }
+  .react-calendar__navigation button {
+    font-size: 35px; /* Aumenta el tamaño de la letra de los botones de navegación */
+  }
+  

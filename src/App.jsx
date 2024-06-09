@@ -9,6 +9,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="cuadro">
+      {/* <Navegacion/> */}
       <BarraNavegacion />
       <Entrenadores />
       {/* <PerfilEntrenador/> */}

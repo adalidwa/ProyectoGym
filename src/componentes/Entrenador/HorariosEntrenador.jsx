@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import './HorariosEntrenador.css';
-
-
+import React, { useState, useEffect } from "react";
+import "./HorariosEntrenador.css";
 const HorarioEntrenador = () => {
   const [entrenadores, setEntrenadores] = useState([]);
 
   useEffect(() => {
     const fetchEntrenadores = async () => {
       try {
-        const response = await fetch('https://665fd3625425580055b101dd.mockapi.io/api/v1/Entrenadores');
+        const response = await fetch(
+          "https://665fd3625425580055b101dd.mockapi.io/api/v1/Entrenadores"
+        );
         const data = await response.json();
-        setEntrenadores(data.slice(0, 3)); 
+        setEntrenadores(data.slice(0, 3));
       } catch (error) {
         console.error("Error fetching data: ", error);
       }
