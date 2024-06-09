@@ -1,7 +1,7 @@
 import React from "react";
 import PerfilCliente from "./PerfilCliente";
 import BotonesCliente from "./BotonesCliente"
-import Cabecera from "./Cabecera";
+import Cabecera from "./Cabecera/Cabecera";
 import './PantallaCliente.css';
 function PantallaCliente()
 {

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './Cabecera.css';
 import Bell_Notification from '/src/assets/icons/Bell_Notification.png';
 import menu from '/src/assets/icons/menu.png';
-import TimelineNovedades from './TimelineNovedades/TimelineNovedades';
+import TimelineNovedades from '../TimelineNovedades/TimelineNovedades';
 
 function Cabecera() {
 

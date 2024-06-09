@@ -1,7 +1,7 @@
 import React from "react";
 import PerfilNutricionista from "./PerfilNutricionista";
 import BotonesEntrenador from "./BotonesEntrenador";
-import Cabecera from "./Cabecera";
+import Cabecera from "./Cabecera/Cabecera";
 import './PantallaNutricionista.css';
 function PantallaEntrenador()
 {
