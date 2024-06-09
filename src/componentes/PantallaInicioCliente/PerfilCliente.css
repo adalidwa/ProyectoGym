@@ -1,13 +1,13 @@
 .PerfilCliente {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.511);
-    height: 380px;
-    width: 350px;
-    margin: 10px auto;
-    border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.511);
+  height: 310px;
+  width: 300px;
+  border-radius: 80px;
+  margin-left: 5%;
 }
   
   .contenedorUsuario {
@@ -22,7 +22,7 @@
   .Bienvenido {
     color: white;
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 5px; 
   }
   
@@ -30,8 +30,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -47,13 +47,13 @@
     align-items: center;
     justify-content:space-between;
     height: 45px;
-    width: 250px;
+    width: 200px;
   }
   
   .nombre {
     color: white;
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
   }
   
   .calendario {
@@ -67,8 +67,8 @@
   }
   
   .calendario img {
-    width: 35px;
-    height: auto;
+    max-width: 80%; /* Establece un ancho máximo para la imagen */
+    max-height: 80%; /* Ajusta automáticamente la altura para mantener la proporción */
   }
   
   .calendario:hover {

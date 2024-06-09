@@ -20,15 +20,15 @@ const PerfilNutricionista = () => {
   }, []);
 
   return (
-    <div className="PerfilCliente">
-        <div className="contenedorUsuario">
-            <h1 className="Bienvenido">Bienvenid@</h1>
-            <div className="contenedorImagen">
+    <div className="PerfilNutricionista">
+        <div className="contenedorUsuarioNutricionista">
+            <h1 className="Bienvenido3">Bienvenid@</h1>
+            <div className="contenedorImagenPN">
                 <img src={cliente.avatar} alt="Descripción de la imagen" />
             </div>
         </div>
-        <div className="ContenedorNombre">
-            <h2 className="nombre">{cliente.name}</h2>
+        <div className="ContenedorNombreNutricionista">
+            <h2 className="nombreNutricionista">{cliente.name}</h2>
         </div>
     </div>
 );

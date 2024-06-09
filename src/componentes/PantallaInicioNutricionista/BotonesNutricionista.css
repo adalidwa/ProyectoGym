@@ -10,7 +10,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
-.Botones {
+.Botones3 {
     padding: 20px;
     width: 250px;
     margin: 10px;
@@ -26,7 +26,7 @@
     cursor: pointer;
 }
 
-.Botones:hover {
+.Botones3:hover {
     background-color: #a81d1d; /* Color más claro al pasar el ratón */
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
     transform: translateY(-2px); /* Mueve el botón hacia arriba */

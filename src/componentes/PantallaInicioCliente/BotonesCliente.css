@@ -1,25 +1,25 @@
 .BotonesCliente {
-    height: 300px;
-    width: 280px;
+    height: 230px;
+    width: 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .Botones {
-    padding: 20px;
-    width: 250px;
-    margin: 10px;
+    padding: 15px;
+    width: 210px;
+    margin: 5px;
     border-radius: 10px;
     background-color: #161515;
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
-    border: 2px dashed #ffcccb;
+    border: 2px dashed #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     text-align: center;

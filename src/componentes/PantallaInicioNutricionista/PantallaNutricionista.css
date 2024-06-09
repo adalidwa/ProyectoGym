@@ -9,15 +9,15 @@
     background-color: rgb(21, 21, 21);
 }
 
-.ContenedorImagen2{
+.ContenedorImagen3{
     position: relative;
     display: inline-block;
 }
-.ContenedorImagen2 img {
+.ContenedorImagen3 img {
     width: 375px;
     height: 380px;
 }
-.PerfilCliente {
+.PerfilNutricionista {
     position: absolute;
     top: 10px; /* Ajusta este valor según sea necesario */
     left: 10px; /* Ajusta este valor según sea necesario */

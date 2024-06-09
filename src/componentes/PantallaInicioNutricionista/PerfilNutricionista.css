@@ -10,7 +10,7 @@
   border-radius: 80px;
 }
 
-.contenedorNutricionista {
+.contenedorUsuarioNutricionista {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,14 +19,14 @@
   width: 400px;
 }
 
-.Bienvenido {
+.Bienvenido3 {
   color: white;
   font-family: 'Alumni Sans', sans-serif;
   font-size: 40px;
   margin-top: 5px; 
 }
 
-.contenedorImagen {
+.contenedorImagenPN {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,12 +36,12 @@
   overflow: hidden;
 }
 
-.contenedorImagen img {
+.contenedorImagenPN img {
   max-width: 100%;
   height: auto;
 }
 
-.ContenedorNombre {
+.ContenedorNombreNutricionista {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@
   width: 250px;
 }
 
-.nombre {
+.nombreNutricionista {
   color: white;
   font-family: 'Alumni Sans', sans-serif;
   font-size: 35px;
