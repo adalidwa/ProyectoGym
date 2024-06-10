@@ -3,15 +3,15 @@ import './PerfilCliente.css';
 import calendario from '/src/assets/icons/calendar-regular 1.png';
 
 const PerfilCliente = () => {
-    const [cliente, setCliente] = useState({ name: '', avatar: '' });
+    const [cliente, setCliente] = useState({ firstname: '', avatar: '' });
 
     useEffect(() => {
-        fetch('https://661037cf0640280f219c98cc.mockapi.io/api/v2/clients')
+        fetch('https://6661a6e163e6a0189feaef7e.mockapi.io/Users')
             .then(response => response.json())
             .then(data => {
                 const randomCliente = data[Math.floor(Math.random() * data.length)];
                 setCliente({
-                    name: randomCliente.name,
+                    firstname: randomCliente.firstname,
                     avatar: randomCliente.avatar
                 });
             })
@@ -29,7 +29,7 @@ const PerfilCliente = () => {
                 </div>
             </div>
             <div className="ContenedorNombre">
-                <h2 className="nombre">{cliente.name}</h2>
+                <h2 className="nombre">{cliente.firstname}</h2>
                 <button className="calendario">
                     <img className="calendario" src={calendario} alt="" />
                 </button>

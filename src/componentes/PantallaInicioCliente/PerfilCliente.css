@@ -47,7 +47,7 @@
     align-items: center;
     justify-content:space-between;
     height: 45px;
-    width: 200px;
+    width: 140px;
   }
   
   .nombre {
@@ -67,12 +67,12 @@
   }
   
   .calendario img {
-    max-width: 80%; /* Establece un ancho máximo para la imagen */
-    max-height: 80%; /* Ajusta automáticamente la altura para mantener la proporción */
+    max-width: 80%;
+    max-height: 80%;
   }
   
   .calendario:hover {
-    background-color: transparent; /* Color más claro al pasar el ratón */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
-    transform: translateY(-2px); /* Mueve el botón hacia arriba */
+    background-color: transparent;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
 }
