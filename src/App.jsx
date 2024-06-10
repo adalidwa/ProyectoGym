@@ -14,6 +14,7 @@ function App() {
     <div>
       <PantallaCliente/>
       <NotificacionFinMembresia/>
+      <TimelineNovedades/>
     </div>
   );
 }
