@@ -9,12 +9,13 @@ import PuenteGluteo from './componentes/PuenteGluteo/Estilo.jsx';
 import GatoVaca from './componentes/GatoVaca/Estilo2.jsx';
 import EstiloEquipo from './componentes/equipo/EstiloEquipo.jsx';
 import Estiloinstrucciones from './componentes/instrucciones/Estiloinstrucciones.jsx';
+import Estilozona from'./componentes/Zona/Estilozona.jsx';
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-       <Estiloinstrucciones/>
+       <PuenteGluteo/>
  
     </>
   );

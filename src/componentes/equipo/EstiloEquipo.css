@@ -1,0 +1,53 @@
+.container {
+    width: 375px;
+    height: 812px;
+    background-color: #1C1C1E;
+    
+}
+  
+.image {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+
+.imagenmancuernas{
+    margin-left: 30px;
+    margin-top: -20px;
+    justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start; /* Alinear elementos a la izquierda */
+    align-items: center;
+}
+.nombre {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 2px;
+    margin-left: 20px;
+  } 
+  
+.imagenbanco{
+    margin-left: 30px;
+    margin-top: 0px;
+    justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start; /* Alinear elementos a la izquierda */
+    align-items: center;
+}
+.imagen {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+
+  .imagenes {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }

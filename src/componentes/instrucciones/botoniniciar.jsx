@@ -1,11 +1,12 @@
 import React from "react"
-import "./Button.css"
+import "./botoniniciar.css"
 
 function Button(){
     return(
         
+
         <div className="contenedorBoton">
-            <button className="botones">Completado</button>
+            <button className="botones">Iniciar</button>
         </div>
 
     )

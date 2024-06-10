@@ -8,7 +8,7 @@ import Barranav from '../encabezado/Barranav.jsx';
 function Estilo2(){
   return (
     <>
-       <Barranav/>
+    <Barranav/>
     <div className="container">
     <img  className="image"src={puentegluteo} alt="" />
     <Titulo/>

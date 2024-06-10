@@ -1,6 +1,6 @@
 import React from 'react'
-import "./Barranav.css";
-import barras from '../../assets/iconos/3barritas.png';
+import "./Barranav.css"
+import barras from '../../assets/iconos/3barritas.png'
 function Barranav() {
   return (
     <div className="contenedorPrincipal">

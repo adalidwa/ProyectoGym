@@ -1,20 +1,30 @@
 .contenedorRecuperacion{
-    width: auto;
-    height: 37px;
+    width: 240px;
+    height: 25px;
     display: flex;
     align-items: center; 
-    gap: 8px;
-    margin-top: 40px;
-    margin-left: 25px;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 31px;
 
 }
 .contenedorRecuperacion img{
     width: 6px;
     height: 11px;
-    
+
 }
 .contenedorRecuperacion h1{
     font-size: 17px;
-    color: #fff;
-    
+    color:#fff;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+
+}
+.rotate-up {
+    transform: rotate(0deg);
+}
+
+.rotate-down {
+    transform: rotate(270deg);
 }

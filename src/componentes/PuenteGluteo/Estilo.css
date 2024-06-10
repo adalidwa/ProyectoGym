@@ -6,7 +6,8 @@
 }
   
 .image {
-    width: 100%;
-    max-width: 600px;
-    margin-bottom: 20px;
-  }
+    width: 375px;
+    max-width: 375px;
+    margin-bottom: 200px;
+    margin-top:0px;  
+}    

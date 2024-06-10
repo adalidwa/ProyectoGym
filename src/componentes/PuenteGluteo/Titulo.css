@@ -1,24 +1,25 @@
 .title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #fff;
-    text-align: left; 
-    margin-top: 2px;
-    margin-left: 20px;
-  }
-  
-  .subtitle {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #fff;
-    text-align: left; 
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .image {
-    width: 100%;
-    max-width: 600px;
-    margin-bottom: 10px;
-  }
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: left; 
+  margin-top: 2px;
+  margin-left: 200px;
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: bold;
+  font-size: 110px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: left; 
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size:22px;
+}

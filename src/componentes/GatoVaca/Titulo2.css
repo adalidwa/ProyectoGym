@@ -5,7 +5,10 @@
     color: #fff;
     text-align: left; 
     margin-top: 2px;
-    margin-left: 20px;
+    margin-left: 200px;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 110px;
   }
   
   .subtitle {
@@ -16,6 +19,8 @@
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: "Open Sans", sans-serif;
+
   }
   .image {
     width: 100%;
