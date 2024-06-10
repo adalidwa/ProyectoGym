@@ -7,14 +7,13 @@ import PantallaCliente from './componentes/PantallaInicioCliente/PantallaCliente
 import TimelineNovedades from './componentes/TimelineNovedades/TimelineNovedades'
 import PantallaNutricionista from './componentes/PantallaInicioNutricionista/PantallaNutricionista'
 import NotificacionFinMembresia from './componentes/NotificacionFinMembresia/NotificacionFinMembresia'
-
+import ComponenteReservar from './componentes/ComponenteReservar/ComponenteReservar'
 function App() {
   
   return (
     <div>
-      <PantallaCliente/>
       <NotificacionFinMembresia/>
-      <TimelineNovedades/>
+      <ComponenteReservar/>
     </div>
   );
 }
