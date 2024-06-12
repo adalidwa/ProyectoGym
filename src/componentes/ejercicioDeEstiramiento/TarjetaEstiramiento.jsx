@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./TarjetaEstiramiento.css"
+import "./TarjetaEstiramiento.css";
 import MiniTarjeta from "./ejerciciosestiramiento/MiniTarjeta";
 import Cabecera from "../encabezado/Cabecera";
 import Opciones from "./Opciones";
@@ -22,16 +22,24 @@ function TarjetaEstiramiento(){
     const obtenerEjercicios = () => {
         const idsAleatorios = generarIdsAleatorios(cantidadTarjetas, maxId);
 
-        
         const fetchEjercicios = async () => {
             const ejerciciosData = await Promise.all(
                 idsAleatorios.map(id =>
-                    fetch('https://6660fa7463e6a0189fe81aa5.mockapi.io/api/v1/estiramiento/${id}')
-                        .then(response => response.json())
-                        .catch(error => console.error(`Error fetching data for ID ${id}:`, error))
+                    fetch(`https://6660fa7463e6a0189fe81aa5.mockapi.io/api/v1/estiramiento/${id}`)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`Error fetching data for ID ${id}: ${response.statusText}`);
+                            }
+                            return response.json();
+                        })
+                        .catch(error => {
+                            console.error(`Error fetching data for ID ${id}:`, error);
+                            return null; // Return null for failed fetches
+                        })
                 )
             );
-            setEjercicios(ejerciciosData);
+            // Filter out null values (failed fetches) before setting state
+            setEjercicios(ejerciciosData.filter(ejercicio => ejercicio !== null));
         };
 
         fetchEjercicios();
@@ -52,16 +60,14 @@ function TarjetaEstiramiento(){
             <Opciones onClick={handleOpcionesClick} isOpen={mostrarEjercicios}/>
             {mostrarEjercicios && (
                 <div className="contenedorMinitarjeta">
-                    {ejercicios.map(ejercicios => (
-                        <MiniTarjeta key={ejercicios.id} ejercicios={ejercicios} />
+                    {ejercicios.map(ejercicio => (
+                        <MiniTarjeta key={ejercicio.id} ejercicios={ejercicio} />
                     ))}
                 </div>
             )}
             <Opciones/>
-            
         </div>
         </>
-
     )
 }
 

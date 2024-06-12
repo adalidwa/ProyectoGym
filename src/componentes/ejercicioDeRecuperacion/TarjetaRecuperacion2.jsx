@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./TarjetaRecuperacion2.css";
 import MiniTarjeta from './ejerciciosrecuperacion/MiniTarjeta2.jsx';
-import Cabecerra from "../encabezado/Cabecera.jsx";
-import Opciones from "./Opciones2.jsx";
 import Cabecera from "../encabezado/Cabecera.jsx";
+import Opciones from "./Opciones2.jsx";
 
 function generarIdsAleatorios(cantidad, maxId) {
   const ids = new Set();
@@ -23,11 +22,10 @@ function TarjetaRecuperacion(){
   const obtenerEjercicios = () => {
       const idsAleatorios = generarIdsAleatorios(cantidadTarjetas, maxId);
 
-      
       const fetchEjercicios = async () => {
           const ejerciciosData = await Promise.all(
               idsAleatorios.map(id =>
-                  fetch('https://6660fa7463e6a0189fe81aa5.mockapi.io/api/v1/recuperacion/${id}:')
+                  fetch(`https://6660fa7463e6a0189fe81aa5.mockapi.io/api/v1/recuperacion/${id}`)
                       .then(response => response.json())
                       .catch(error => console.error(`Error fetching data for ID ${id}:`, error))
               )
@@ -44,21 +42,21 @@ function TarjetaRecuperacion(){
           obtenerEjercicios();
       }
   };
+
   return (
     <>
       <div className="contenedorTRecuperacion">
-        <Cabecera/>
+        <Cabecera />
         <Opciones />
         <Opciones />
         <Opciones onClick={handleOpcionesClick} isOpen={mostrarEjercicios}/>
-            {mostrarEjercicios && (
-                <div className="contenedorMinitarjeta">
-                    {ejercicios.map(ejercicios => (
-                        <MiniTarjeta key={ejercicios.id} ejercicios={ejercicios} />
-                    ))}
-                </div>
-            )}
-
+        {mostrarEjercicios && (
+          <div className="contenedorMinitarjeta">
+            {ejercicios.map(ejercicio => (
+              <MiniTarjeta key={ejercicio.id} ejercicios={ejercicio} />
+            ))}
+          </div>
+        )}
       </div>
     </>
   );
