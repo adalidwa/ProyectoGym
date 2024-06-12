@@ -1,53 +1,71 @@
-.container {
-    width: 375px;
-    height: 812px;
-    background-color: #1C1C1E;
-    
+.containerEquipo {
+  width: 375px;
+  height: 950px;
+  background-color: #1C1C1E;
 }
   
-.image {
-    width: 100%;
+.imagenEjercicio {
+    width: 375px;
     max-width: 600px;
     margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: 0px;
   }
 
 .imagenmancuernas{
     margin-left: 30px;
-    margin-top: -20px;
-    justify-content: flex-start;
+    margin-top: 10px;
     display: flex;
     justify-content: flex-start; /* Alinear elementos a la izquierda */
     align-items: center;
 }
-.nombre {
-    font-size: 24px;
-    font-weight: bold;
+.nombreEquipo {
+    font-size: 20px;
+
     margin-bottom: 10px;
     color: #fff;
     text-align: center; 
     margin-top: 2px;
     margin-left: 20px;
+    font-family: "Alumni Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2vh;
   } 
   
 .imagenbanco{
-    margin-left: 30px;
-    margin-top: 0px;
-    justify-content: flex-start;
-    display: flex;
-    justify-content: flex-start; /* Alinear elementos a la izquierda */
-    align-items: center;
+  margin-left: 30px;
+  margin-top: -20px;
+  justify-content: flex-start;
+  display: flex;
+  justify-content: left; /* Alinear elementos a la izquierda */
+  align-items: center;
 }
-.imagen {
+.imagenEquipo {
     width: 100%;
     max-width: 600px;
     margin-bottom: 20px;
     margin-top: -20px;
   }
 
-  .imagenes {
+  .imagenesEquipobanca {
     width: 100%;
     max-width: 600px;
     margin-bottom: 20px;
     margin-top: -20px;
   }
+  .nombreBanca{
+    font-size: 20px;
+
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center; 
+    margin-top: 2px;
+    margin-left: 20px;
+    font-family: "Alumni Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2vh;
+  } 
+  

@@ -1,0 +1,29 @@
+.Equipo {
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+    color: #fff; 
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 21px;
+    margin-right:200px ;
+
+}
+
+.imagenmancuernas {
+    display: flex;
+    margin-right: 40px;
+    
+}
+
+.imagenmancuernas img {
+    max-width: 100%;
+    margin-top: -10px;
+    margin-left: 10px;
+    height: auto;
+    margin-right:50px; /* Espacio entre la imagen y el texto */
+}
+
+.imagenmancuernas .item p {
+    margin-top:50px; /* Asegúrate de que el margen superior sea cero */
+}
+  

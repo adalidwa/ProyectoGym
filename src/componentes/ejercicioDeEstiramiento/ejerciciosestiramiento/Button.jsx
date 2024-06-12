@@ -5,7 +5,7 @@ function Button(){
     return(
         
         <div className="contenedorBoton">
-            <button className="botones">Completado</button>
+            <button className="botones">Comenzar</button>
         </div>
 
     )

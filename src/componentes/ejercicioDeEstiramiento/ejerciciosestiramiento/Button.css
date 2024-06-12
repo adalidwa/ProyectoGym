@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
 
 }
@@ -14,12 +14,12 @@
     border-radius: 80px;
     background-color: #C04551;
     color: #FFFFFF;
-    font-size:10px ;
+    font-size:15px ;
     margin: 0px;
     display: flex; 
     justify-content: center;
     align-items: center; 
-    
+      
 }
 .botones:hover {
     background-color: #1D4FAE; 

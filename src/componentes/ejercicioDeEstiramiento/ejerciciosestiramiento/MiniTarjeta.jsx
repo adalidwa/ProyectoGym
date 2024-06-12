@@ -1,20 +1,23 @@
-import React from "react"
-import "./MiniTarjeta.css"
-import DescripcionEjercicio from "./DescripcionEjercicio.jsx";
-import EjercicioTiempo from "./EjercicioTiempo.jsx";
-import Button from "./Button.jsx"
+import React from "react";
+import "./MiniTarjeta.css";
+import DescripcionEjercicio from "./DescripcionEjercicio";
+import EjercicioTiempo from "./EjercicioTiempo";
+import Button from "./Button";
 
-function MiniTarjeta({ ejercicio }){
+function MiniTarjeta({ ejercicios }) {
+    if (!ejercicios) {
+        return <div>No hay datos disponibles</div>;
+    }
+
+    const { nombre, imagen, tiempo, repeticiones } = ejercicios;
+
     return (
-        <>
-            <div className="contenedorTarjeta">
-                <DescripcionEjercicio nombre={ejercicio.nombre} imagen={ejercicio.imagen}/>
-                <EjercicioTiempo tiempo={ejercicio.tiempo} repeticiones={ejercicio.repeticiones} />
-                <Button/>
-            </div>
-        </>
-
-    )
+        <div className="contenedorTarjeta">
+            <DescripcionEjercicio nombre={nombre} imagen={imagen} />
+            <EjercicioTiempo tiempo={tiempo} repeticiones={repeticiones} />
+            <Button />
+        </div>
+    );
 }
 
 export default MiniTarjeta;

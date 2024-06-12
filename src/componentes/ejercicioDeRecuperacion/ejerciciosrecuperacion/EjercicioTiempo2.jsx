@@ -5,12 +5,12 @@ import Calorias from "../../../assets/iconos/Calorias.png"
 
 function EjercicioTiempo2 ({ tiempo, repeticiones }){
     return(
-        <div className="contenedorDetalles">
-            <div className="contenedorTiempo">
+        <div className="contenedorDetallesRecuperacion">
+            <div className="contenedorTiempoRecuperacion">
                 <img src={Tiempo} alt="" />
                 <p>{tiempo} Minutos</p>
             </div>
-            <div className="contenedorCalorias">
+            <div className="contenedorCaloriasRecuperacion">
                 <img src={Calorias} alt="" />
                 <p>{repeticiones} Rep.</p>
             </div>

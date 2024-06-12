@@ -4,11 +4,11 @@ import ejerWoman from "../../../assets/imagenes/ejerWoman.png"
 
 function DescripcionEjercicio2 ({ nombre, imagen }){
     return(
-        <div className="ContenedorM">
-            <div className="contenedorImagen">
+        <div className="ContenedorMRecuperaacion">
+            <div className="contenedorImagenRecuperacion">
                 <img src={imagen}alt="" />
             </div>
-            <div className="contenedorTitulo">
+            <div className="contenedorTituloRecuperacion">
                 <h1>
                 {nombre}
                 </h1>

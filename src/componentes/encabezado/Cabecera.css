@@ -1,0 +1,39 @@
+.contenedorCabecera{
+    display: flex;
+    height: 67px;
+    width:375px;
+    background-color: rgba(51, 54, 63, 0.94);
+    flex-direction: row;
+    align-items: center;    
+    justify-content:space-between;
+    color: white;
+}
+.titulo{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.contenedorBotonesCabecera{
+    height: 45px;
+    width: 90px;
+    flex-direction: row;
+    display: flex;
+
+}
+.BotonesCabecera {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-color: transparent;
+    align-items: center;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .BotonesCabecera img {
+    width: 35px;
+    height: auto;
+  }
