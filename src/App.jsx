@@ -1,21 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Cabecera from './componentes/Cabecera/Cabecera'
-import PantallaCliente from './componentes/PantallaInicioCliente/PantallaCliente'
-import TimelineNovedades from './componentes/TimelineNovedades/TimelineNovedades'
-import PantallaNutricionista from './componentes/PantallaInicioNutricionista/PantallaNutricionista'
-import NotificacionFinMembresia from './componentes/NotificacionFinMembresia/NotificacionFinMembresia'
-import ComponenteReservar from './componentes/ComponenteReservar/ComponenteReservar'
+import React from 'react';
+import Chatbot from 'react-chatbot-kit';
+import 'react-chatbot-kit/build/main.css';
+import config from './chatbot/Config';
+import MessageParser from './chatbot/MessageParser';
+import ActionProvider from './chatbot/ActionProvider';
+
 function App() {
-  
   return (
-    <div>
-      <NotificacionFinMembresia/>
-      <ComponenteReservar/>
+    <div className="App">
+      <header className="App-header">
+        <h1>Chatbot Nutricional</h1>
+        <Chatbot
+          config={config}
+          messageParser={MessageParser}
+          actionProvider={ActionProvider}
+        />
+      </header>
     </div>
   );
 }
 
-export default App
+export default App;

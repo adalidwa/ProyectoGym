@@ -4,9 +4,9 @@ import './BotonesNutricionista.css'
 const BotonesNutricionista = () =>{
     return (
         <div className="BotonesNutricionista">
-            <button className="Botones">Asignar Dieta</button>
-            <button className="Botones">Dietas Asignadas</button>
-            <button className="Botones">Evaluación Nutricional</button>
+            <button className="Botones3">Asignar Dieta</button>
+            <button className="Botones3">Dietas Asignadas</button>
+            <button className="Botones3">Evaluación Nutricional</button>
         </div>
     )
 }
