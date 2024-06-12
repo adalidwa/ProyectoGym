@@ -40,7 +40,7 @@ const RatingComponent = () => {
         ))}
       </div>
 
-      <div className="rating-question">¿Cómo calificarías a tu entrenador?</div>
+      <div className="rating-question">¿Cómo calificarías a tu entrenad@r?</div>
 
       <div className="rating-comment-box">
         <textarea

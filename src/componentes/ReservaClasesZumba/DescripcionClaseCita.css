@@ -1,0 +1,80 @@
+.cita {
+  background-color: rgba(28, 28, 30, 1);
+  padding: 20px; /* Reducido */
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  width: 280px;
+  height: 250px;
+  /* max-width: 50%; */ /* Ajustar según el ancho del contenedor */
+  margin: auto;
+}
+.cita h2{
+  font-size: 18px;
+}
+
+
+.hora {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.ubicacion {
+  font-size: 10px;
+  margin-bottom: 2px;
+  text-align: left;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.instructora {
+  text-align: right;
+  font-size: 12px; /* Reducido */
+}
+
+.instructora img {
+  width: 30px; /* Reducido */
+  height: fit-content;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.btn-enviar {
+  background-color: rgba(182, 70, 86, 1);
+  color: white;
+  padding: 2px 4px; /* Reducido */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 11px; /* Reducido */
+}
+.btn-enviar:hover {
+  background-color: rgb(71, 45, 187); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

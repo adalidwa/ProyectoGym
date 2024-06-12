@@ -1,10 +1,10 @@
 import React from 'react';
-import './EvaluacionNutricional.css';
+import './EvaluacionFisica.css';
 
 const EvaluacionNutricional = () => {
   return (
     <div className="evaluacion-nutricional">
-      <h2>EVALUACIÓN NUTRICIONAL</h2>
+      <h2>EVALUACIÓN FISICA</h2>
       <div className="fecha-cliente">
         <div className="cliente">
           <label htmlFor="cliente">Cliente:</label>
@@ -21,24 +21,24 @@ const EvaluacionNutricional = () => {
             <label htmlFor="peso">Peso (kg):</label>
             <input type="number" id="peso" />
           </div>
-          
           <div className="altura">
             <label htmlFor="altura">Altura (cm):</label>
             <input type="number" id="altura" />
           </div>
         </div>
-        
+        <div className="imc">
+          <label htmlFor="imc">IMC:</label>
+          <input type="text" />
+        </div>
       </div>
       <div className="condicion-fisica">
-        <label htmlFor="condicionFisica">Tipo de Cuerdo:</label>
+        <label htmlFor="condicionFisica">Nivel de condición física:</label>
         <select id="condicionFisica">
-          <option value="Bajo">Ectoformo</option>
-          <option value="Medio">Mesoformo</option>
-          <option value="Alto">Endomorfo</option>
-          <option value="Medio">Combinado ectoformo/mesoformo</option>
-          <option value="Alto">Combinado mesoformo/Endoformo</option>
+          <option value="Bajo">Bajo</option>
+          <option value="Medio">Medio</option>
+          <option value="Alto">Alto</option>
         </select>
-
+        
         <div className="observaciones">
           <label htmlFor="observaciones">OBSERVACIONES:</label>
           <input type="text" id="observaciones" />

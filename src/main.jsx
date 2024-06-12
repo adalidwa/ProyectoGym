@@ -1,46 +1,42 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import PerfilEntrenador from './PerfilEntrenador.jsx'
-import './PerfilEntrenador.css'
-
-
-import ClasesCircuitos from './ClasesCircuitos.jsx'
-import './ClasesCircuitos.css'
-
-
-import './ClasesCalendario.css'
-import ClasesCalendario from './ClasesCalendario.jsx'
-
-
-import './DescripcionClaseCita.css'
-import DescripcionClaseCita  from './DescripcionClaseCita.jsx'
-
-import './EvaluacionNutricional.css'
-import EvaluacionNutricional  from './EvaluacionNutricional.jsx'
-
-
-import './EvaluacionFisica.css'
-import EvaluacionFisica  from './EvaluacionFisica.jsx'
-import './PuntuacionEntrenador.css'
+/* import PerfilEntrenador from './PerfilEntrenador.jsx'
 import PuntuacionEntrenador from './PuntuacionEntrenador.jsx'
+import EvaluacionFisica  from './EvaluacionFisica.jsx' 
+import EvaluacionNutricional  from './EvaluacionNutricional.jsx'  */
+/* import ClasesCircuitos from './ClasesCircuitos.jsx' */
 
 
-
+import ReservaClasesCircuitos from "./componentes/ReservaClasesCircuitos/ReservaClasesCircuitos.jsx"
+import ReservaClasesYoga from './componentes/ReservaClasesYoga/ReservaClasesYoga.jsx'
+import ReservaClasesZumba from './componentes/ReservaClasesZumba/ReservaClasesZumba.jsx'
+import CalificacionEntrenador from "./componentes/CalificacionEntrenador/CalificacionEntrenador.jsx"
+import EvaluacionEntrenador from './componentes/EvaluacionEntrenador/EvaluacionEntrenador.jsx'
+import EvaluacionNutricionista from './componentes/EvaluacionNutricionista/EvaluacionNutricionista.jsx'
+import ClasesDisponibles from './componentes/ClasesDisponibles/ClasesDisponibles.jsx'
 
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <PerfilEntrenador />
-    <ClasesCircuitos />
-    <ClasesCalendario />
-    <DescripcionClaseCita />
-    <EvaluacionNutricional />
+    
+  {/* <ClasesDisponibles/> */}
+  {/* <EvaluacionEntrenador/> */}
+  {/* <EvaluacionNutricionista/> */}
+  <CalificacionEntrenador/>
+  {/* <ReservaClasesCircuitos/>  */}
+  {/* <ReservaClasesYoga/> */} 
+  {/* <ReservaClasesZumba/> */}
+     
 
-    <EvaluacionFisica />
-
-    <PuntuacionEntrenador />
+  {/* <PerfilEntrenador /> */}
+  {/* <ClasesCircuitos />  */}
+  {/*  {<ClasesCalendario />} */}
+  {/* <DescripcionClaseCita /> */}
+  {/* <EvaluacionNutricional /> */}
+  {/* <EvaluacionFisica /> */}
+  {/* <PuntuacionEntrenador /> */}
     
     
   </React.StrictMode>
