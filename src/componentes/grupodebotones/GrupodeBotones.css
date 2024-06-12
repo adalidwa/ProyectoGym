@@ -1,0 +1,32 @@
+.button-group {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #cc5252; /* Red color for the bottom border */
+    position: relative;
+  }
+  
+  .button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .indicator {
+    position: absolute;
+    bottom: -2px; /* Adjust this if needed to align with the border */
+    left: 0;
+    width: 60px; /* Adjust width according to your design */
+    height: 2px; /* Height of the indicator */
+    background-color: #cc5252; /* Red color for the indicator */
+    z-index: 0;
+    transition: left 0.3s ease;
+  }

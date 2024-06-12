@@ -1,11 +1,10 @@
-.container {
+.containerinstruccion {
     width: 375px;
-    height: 995px;
+    height: 900px;
     background-color: #1C1C1E;
-    
 }
   
-.image {
+.imageninstruccion {
     width: 100%;
     max-width: 600px;
     margin-bottom: 20px;

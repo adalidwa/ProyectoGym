@@ -1,12 +1,13 @@
-.title {
-    font-size: 24px;
+.titleinstruccion {
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #fff;
     text-align: left; 
     margin-top: 2px;
-    margin-left: 200px;
+    margin-left: 20px;
     font-family: "Alumni Sans", sans-serif;
-    font-weight: bold;
-    font-size: 110px;
+    display: flex;
+
   }
+

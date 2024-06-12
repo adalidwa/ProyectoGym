@@ -1,18 +1,17 @@
 import React from 'react';
-import './Estilo.css';
+import './EstiloPuente.css';
 import puentegluteo from '../../assets/imagenes/Puentegluteo.png'; 
-import Titulo from './Titulo.jsx';
-import Texto from './Texto.jsx';
-import Barranav from '../encabezado/Barranav.jsx';
+import Titulo from './TituloTextoPuente.jsx';
+import Cabecera from '../encabezado/Cabecera.jsx';
 
 function Estilo (){
   return (
     <>
-       <Barranav/>
+       <Cabecera/>
     <div className="container">
-    <img  className="image"src={puentegluteo} alt="" />
+    <img  className="imagepuente"src={puentegluteo} alt="" />
     <Titulo/>
-    <Texto/>
+
 
 
     </div>

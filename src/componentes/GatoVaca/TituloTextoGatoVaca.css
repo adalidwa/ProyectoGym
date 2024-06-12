@@ -1,17 +1,15 @@
-.title {
-    font-size: 24px;
+.titulogato {
+    font-size: 30px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #fff;
     text-align: left; 
-    margin-top: 2px;
-    margin-left: 200px;
+    margin-top: -190px;
+    margin-left: 15px;
     font-family: "Alumni Sans", sans-serif;
-    font-weight: bold;
-    font-size: 110px;
   }
   
-  .subtitle {
+  .subtitlegato {
     font-size: 20px;
     margin-bottom: 10px;
     color: #fff;
@@ -22,8 +20,19 @@
     font-family: "Open Sans", sans-serif;
 
   }
-  .image {
+  .imagegato {
     width: 100%;
     max-width: 600px;
     margin-bottom: 10px;
   }
+  .textgato{
+    font-size: 16px;
+    line-height: 1.5;
+    color:#fff;
+    text-align: left; 
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family: "Alumni Sans", sans-serif;
+
+    }

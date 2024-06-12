@@ -1,4 +1,4 @@
-.container {
+.containerzona {
     width: 375px;
     height: 812px;
     background-color: #1C1C1E;
@@ -9,65 +9,5 @@
     width: 100%;
     max-width: 600px;
     margin-bottom: 20px;
-    margin-top: -27px;
-  }
-
-  .imagenhombros {
-    position: absolute;
-    margin: 20 px;
-    z-index: 1;
-  }
-  .imagenhombros{
-    width: 120px;
-    top: 510px;
-    bottom: 60px;
-    left: 30px;
-    max-height: 200%;
-    object-fit: cover;
-    margin-left: 26px;
-  }
-.nombre {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #fff;
-    text-align: center; 
-    margin-top: 2px;
-    margin-left: 20px;
-  } 
-  
-  .imagenbrazos{
-    position: absolute;
-    margin: 20 px;
-    z-index: 1;
-  }
-  .imagenbrazos{
-    width: 120px;
-    top: 510px;
-    bottom: 60px;
-    left: 50px;
-    max-height: 200%;
-    object-fit: cover;
-    margin-left: 26px;
-  }
-.imagen {
-    width: 100%;
-    max-width: 600px;
-    margin-bottom: 20px;
-    margin-top: -20px;
-  }
-
-  .imagenes {
-    width: 100%;
-    max-width: 600px;
-    margin-bottom: 20px;
-    margin-top: -20px;
-  }
-  .imagenmusculos{
-    margin-left: 30px;
     margin-top: 0px;
-    justify-content: flex-start;
-    display: flex;
-    justify-content: flex-start; /* Alinear elementos a la izquierda */
-    align-items: center;
 }
