@@ -7,7 +7,7 @@ import Grupobotones from '../grupodebotones/Grupodebotones.jsx';
 import Zona from './ZonadelCuerpo.jsx';
 import Botoniniciar from '../BotonIniciar/BotonIniciar.jsx';
 
-function EstiloEquipo(){
+function EstiloZona(){
   return (
     <>
        <Cabecera/>
@@ -18,14 +18,10 @@ function EstiloEquipo(){
     <Zona/>
     <Botoniniciar/>
 
-
-   
-
-
     </div>
     </>
 
   );
 };
 
-export default EstiloEquipo;
+export default EstiloZona;

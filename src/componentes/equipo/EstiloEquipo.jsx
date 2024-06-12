@@ -20,12 +20,7 @@ function EstiloEquipo(){
     <img  className="imagenesEquipobanca"src={barradeinstruccion} alt="" />
     <Equipo/>
     <img  className="imagenesEquipobanca"src={barradeinstruccion} alt="" />
-
     <BotonIniciar/>
-
-   
-
-
     </div>
     </>
 

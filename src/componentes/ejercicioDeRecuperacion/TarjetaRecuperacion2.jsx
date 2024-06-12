@@ -27,7 +27,7 @@ function TarjetaRecuperacion(){
       const fetchEjercicios = async () => {
           const ejerciciosData = await Promise.all(
               idsAleatorios.map(id =>
-                  fetch(`https://6660fa7463e6a0189fe81aa5.mockapi.io/api/v1/recuperacion/${id}`)
+                  fetch('https://6660fa7463e6a0189fe81aa5.mockapi.io/api/v1/recuperacion/${id}:')
                       .then(response => response.json())
                       .catch(error => console.error(`Error fetching data for ID ${id}:`, error))
               )

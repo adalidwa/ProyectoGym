@@ -11,6 +11,8 @@ function EstiloEquipo(){
     <div className="nombre">Hombros</div>
     <img className='imagenbrazos'src={brazos}alt=''/>
     <img  className="imagenes"src={barradeinstruccion} alt="" />
+    <div className="nombredebrazos">Brazos</div>
+    <img  className="imagenes"src={barradeinstruccion} alt="" />
 
 
     </>
