@@ -1,3 +1,4 @@
+import React from 'react';
 import { createChatBotMessage } from 'react-chatbot-kit';
 import BotAvatar from './BotAvatar';
 import ActionProvider from './ActionProvider';

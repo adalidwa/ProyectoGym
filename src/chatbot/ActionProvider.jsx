@@ -1,5 +1,4 @@
 import React from 'react';
-import foodMapping from './foodMapping.json';
 
 class ActionProvider {
   constructor(createChatBotMessage, setStateFunc) {
@@ -8,15 +7,12 @@ class ActionProvider {
   }
 
   handleNutritionalInfo = async (food) => {
-    const foodInEnglish = foodMapping[food.toLowerCase()] || food;
-    console.log(`Translated food: ${foodInEnglish}`);
-
     const appId = '9e9c023d';
     const appKey = 'fff28e2dc86b5eadba0d0f372a351e9a';
-    const url = `https://api.edamam.com/api/food-database/v2/parser?app_id=${appId}&app_key=${appKey}&ingr=${foodInEnglish}`;
+    const url = `https://api.edamam.com/api/food-database/v2/parser?app_id=${appId}&app_key=${appKey}&ingr=${food}`;
 
     try {
-      console.log(`Fetching data for: ${foodInEnglish}`);
+      console.log(`Fetching data for: ${food}`);
       const response = await fetch(url);
       console.log(`Response status: ${response.status}`);
 
@@ -60,4 +56,3 @@ class ActionProvider {
 }
 
 export default ActionProvider;
-
