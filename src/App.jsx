@@ -13,9 +13,11 @@ import DietaAsignada from "./componentes/DietaAsignada /DietaAsignada.jsx";
 import AsignacionAlimentos from "./componentes/asignarAlimentos/AlimentosAsignar.jsx";
 import AsignarDieta from "./componentes/asignarDieta/AsignarDieta.jsx"
 import "./App.css";
+import DietaAsignadaCliente from "./componentes/dietaasignadacliente/DietaAsignadaCliente.jsx";
 const App = () => {
   return (
     <div className="cuadro">
+      <DietaAsignadaCliente/>
       {/* <AsignarDieta/> */}
       {/* <AsignacionAlimentos/> */}
       {/* <DietaAsignada/> */}
