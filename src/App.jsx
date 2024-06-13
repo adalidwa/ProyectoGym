@@ -8,20 +8,20 @@ import BarraNavegacion from "./componentes/BarraNavegacion/BarraNavegacion.jsx";
 import Navegacion from "./componentes/Router/Navegacion.jsx";
 import RutinaAsignada from "./componentes/rutinaAsignada/RutinaAsignada.jsx";
 import AsignarRutina from "./componentes/asignarRutina/AsignarRutina.jsx"
-import EjeciciosAsignar from "./componentes/ejercicio/EjeciciosAsignar.jsx";
+import EjeciciosAsignar from "./componentes/asignarEjercicio/EjeciciosAsignar.jsx";
+import DietaAsignada from "./componentes/DietaAsignada /DietaAsignada.jsx";
+import AsignacionAlimentos from "./componentes/asignarAlimentos/AlimentosAsignar.jsx";
+import AsignarDieta from "./componentes/asignarDieta/AsignarDieta.jsx"
 import "./App.css";
 const App = () => {
   return (
     <div className="cuadro">
-      <EjeciciosAsignar/>
+      <AsignarDieta/>
+      {/* <AsignacionAlimentos/> */}
+      {/* <DietaAsignada/> */}
+      {/* <EjeciciosAsignar/> */}
       {/* <AsignarRutina/> */}
       {/* <RutinaAsignada/> */}
-      {/* <BarraNavegacion />
-      <Navegacion/> */}
-      {/* <Entrenadores /> */}
-      {/* <PerfilEntrenador/> */}
-      {/* <BarraDeMenu /> */}
-      {/* <Asistencia/> */}
     </div>
   );
 };

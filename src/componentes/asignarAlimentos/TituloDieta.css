@@ -1,0 +1,28 @@
+.titulodi {
+    /* background-color: aqua; */
+    width: 345px;
+    height: 40px;
+    margin: 10px;
+}
+.titulodi img {
+    margin: 0px 10px;
+    width: 27px;
+    height: 24.59px;
+}
+
+.tituloimagendi p{
+    margin: 0px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.titulodi .tituloimagendi {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.tituloimagendi img{
+    margin: 0px 90px 0px 10px;
+}

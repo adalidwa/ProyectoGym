@@ -1,0 +1,24 @@
+.graficaUserdi{
+    /* background-color: aqua; */
+    width: 352px;
+    height: 183px;
+    border: 2px solid #C04551;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.graficaUser-Grafodi{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: brown; */
+    width: 314px;
+    height: 23px;
+    margin: 10px;
+}
+.graficaUser-Grafodi p{
+    margin: 5px;
+    font-size: 17px;
+
+}

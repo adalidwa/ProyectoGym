@@ -1,0 +1,34 @@
+.FechaUsudi {
+    width: 320px;
+    display: flex;
+    margin: 5px 20px;
+    font-size: 25px;
+    position: relative; /* Para posicionar el calendario relativo al contenedor */
+}
+
+.FechaUsudi p {
+    display: inline-block;
+    margin: 0px;
+}
+
+.FechaUsuTextodi {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.FechaUsuImgdi {
+    position: relative;
+}
+
+.FechaUsuImgdi img {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.react-datepicker {
+    position: absolute;
+    top: 30px; /* Ajusta según sea necesario */
+    right: 0px;
+    z-index: 1000;
+}
