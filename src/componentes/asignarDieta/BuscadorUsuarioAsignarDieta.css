@@ -1,7 +1,8 @@
 .BuscadorUsuAsigdi{
     /* background-color: aqua; */
+    
     width: 345px;
-    height: 80px;
+    height: 138px;
     margin: 10px;
 }
 .BuscadorUsuAsigdi img {
@@ -9,8 +10,8 @@
     width: 27px;
     height: 24.59px;
 }
-.BuscadorUsuAsigdi input{
-    width: 290px;
+.BuscadorUsuAsigdi .dropdown {
+    width: 245px;
     height: 40px;
     border-radius: 10px;
     background-color: #3E3E41;
@@ -18,15 +19,11 @@
     text-align: center;
     color: white;
     font-size: 20px;
+    text-align: left;
+    margin: 10px ;
+    
 }
-.BuscadorUsuAsigimagendi{
-    width: 345px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-}
+
 .BuscadorUsuAsigTextodi p{
     margin: 0px;
     font-size: 28px;
@@ -41,4 +38,35 @@
 }
 .BuscadorUsuAsigTextodi img{
     margin: 0px 70px 0px 10px;
+}
+.BuscadorUsuAsigdi .dropdown1{
+    width: 147px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3E3E41;
+    border: none;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.BuscadorUsuAsigimagendi{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 307px;
+    height: 94px;
+}
+.dropdown1{
+    margin: 10px;
+}
+.dropdown option{
+    width: 10px;
+
+}
+.BuscadorUsuAsigdi .dropdown option {
+    max-width: 35px; /* Ajusta este valor según sea necesario */
+    height: 10px;
+    background-color: #3E3E41;
+    color: white;
 }

@@ -1,17 +1,27 @@
 import React from "react";
-import Fecha from "../img/Flecha.png";
+import Flecha from "../img/Flecha.png";
 import "./BuscadorUsuarioAsignarDieta.css";
 
 const BuscadorUsuarioAsignarDieta = () => {
   return (
     <div className="BuscadorUsuAsigdi">
       <div className="BuscadorUsuAsigTextodi">
-        <img src={Fecha} alt="" />
-        <p>DIETA ASIGNADA</p>
+        <img src={Flecha} alt="" />
+        <p>DIETA A ASIGNAR</p>
       </div>
       <div className="BuscadorUsuAsigimagendi">
-        <input type="text"placeholder="Buscar..."/>
+        <select className="dropdown" defaultValue="JUAN">
+          <option value="JUAN">Juan</option>
+          <option value="JUAN">Pedro</option>
+          <option value="JUAN">Denis</option>
+        </select>
+        <select className="dropdown1" defaultValue="JUAN">
+          <option value="JUAN">Desayuno</option>
+          <option value="JUAN">Almuerzo</option>
+          <option value="JUAN">Cena</option>
+        </select>
       </div>
+
     </div>
   );
 };
