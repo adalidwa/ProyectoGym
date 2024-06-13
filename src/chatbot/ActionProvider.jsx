@@ -37,6 +37,14 @@ class ActionProvider {
           ...prev,
           messages: [...prev.messages, message],
         }));
+
+        // Añadir mensaje adicional
+        const followUpMessage = this.createChatBotMessage("¿De qué otro alimento te gustaría saber la información nutricional?");
+        this.setState((prev) => ({
+          ...prev,
+          messages: [...prev.messages, followUpMessage],
+        }));
+
       } else {
         this.handleUnknown(food);
       }

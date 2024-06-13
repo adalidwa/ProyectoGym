@@ -1,12 +1,6 @@
 
 body {
   margin: 0px;
-  /*place-items: center; */
+  font-size: 15;
+  font-family: "calibri", sans-serif;
 }
-
-/* @media (max-width: 768px) {
-  .body {
-    background-color: lightgreen;
-    font-size: 14px;
-  }
-} */

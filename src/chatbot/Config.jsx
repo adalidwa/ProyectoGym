@@ -3,19 +3,18 @@ import { createChatBotMessage } from 'react-chatbot-kit';
 import BotAvatar from './BotAvatar';
 import ActionProvider from './ActionProvider';
 import MessageParser from './MessageParser';
-
 const config = {
-  botName: "NutriBot",
-  initialMessages: [createChatBotMessage("Hola, ¿en qué puedo ayudarte hoy?")],
+  botName: "NutriSmart",
+  initialMessages: [createChatBotMessage("¡Hola! Soy NutriSmart. Puedo darte la información nutricional del alimento que quieras. Así que dime, ¿de qué alimento deseas adquirir la información nutricional?")],
   customComponents: {
-    botAvatar: (props) => <BotAvatar {...props} />,
+    botAvatar: (props) => <BotAvatar {...props} avatarUrl="https://w7.pngwing.com/pngs/980/386/png-transparent-round-red-gray-and-black-robot-logo-sphere-smile-bioman-avatar-1-red-game-sphere-emoticon-thumbnail.png" />,
   },
   customStyles: {
     botMessageBox: {
-      backgroundColor: "#376B7E",
+      backgroundColor: "#62152d",
     },
     chatButton: {
-      backgroundColor: "#5ccc9d",
+      backgroundColor: "#62152d",
     },
   },
   actionProvider: ActionProvider,

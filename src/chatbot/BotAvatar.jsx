@@ -1,12 +1,16 @@
 import React from 'react';
 
-const BotAvatar = () => {
+const BotAvatar = (props) => {
   return (
-    <div className="react-chatbot-kit-chat-bot-avatar">
-      <div className="react-chatbot-kit-chat-bot-avatar-container">
-        <img src="path_to_your_bot_avatar_image" alt="Bot Avatar" />
-      </div>
-    </div>
+    <img
+      src={props.avatarUrl}
+      alt="Bot Avatar"
+      style={{
+        width: '42px',
+        height: '40px',
+        borderRadius: '50%',
+      }}
+    />
   );
 };
 
