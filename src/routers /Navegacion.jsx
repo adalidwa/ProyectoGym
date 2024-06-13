@@ -3,6 +3,8 @@ import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import EstiloEquipo from '../componentes/equipo/EstiloEquipo'
 import EstiloZona from '../componentes/Zona/Estilozona'
 import Estiloinstrucciones from '../componentes/instrucciones/Estiloinstrucciones'
+import TarjetaEstiramiento from '../componentes/ejercicioDeEstiramiento/TarjetaEstiramiento'
+import PuenteGluteo from '../componentes/PuenteGluteo/EstiloPuente.jsx'
 
 
 const Navegacion = () => {
