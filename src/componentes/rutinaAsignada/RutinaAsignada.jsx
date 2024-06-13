@@ -1,20 +1,18 @@
 import React from 'react'
-import './DietaAsignada.css';
+import './RutinaAsignada.css';
 import FechaUsuario from './FechaUsuario';
 import BuscadorUsuario from './BuscadorUsuario';
 import SumaCalorias from './SumaCalorias';
 import EjerciciosUsuario from './EjerciciosUsuario';
 import GraficaUsuario from './GraficaUsuario';
-import EnvioUsurario from './EnvioUsurario';
 const DietaAsignada = () => {
   return (
-    <div className='Cuadro' >
+    <div className='Cuadros' >
         <BuscadorUsuario/>
         <FechaUsuario/>
         <SumaCalorias/>
         <EjerciciosUsuario/>
         <GraficaUsuario/>
-        <EnvioUsurario/>
     </div>
   )
 }

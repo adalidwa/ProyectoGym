@@ -6,12 +6,14 @@ import Asistencia from "./componentes/Calendario/Asistencia.jsx";
 import FondoImagen from "./componentes/img/ImagenFondo.png";
 import BarraNavegacion from "./componentes/BarraNavegacion/BarraNavegacion.jsx";
 import Navegacion from "./componentes/Router/Navegacion.jsx";
-import DietaAsignada from "./componentes/rutinaAsignada/DietaAsignada.jsx";
+import RutinaAsignada from "./componentes/rutinaAsignada/RutinaAsignada.jsx";
+import AsignarRutina from "./componentes/asignarRutina/AsignarRutina.jsx"
 import "./App.css";
 const App = () => {
   return (
     <div className="cuadro">
-      <DietaAsignada/>
+      <AsignarRutina/>
+      {/* <RutinaAsignada/> */}
       {/* <BarraNavegacion />
       <Navegacion/> */}
       {/* <Entrenadores /> */}
