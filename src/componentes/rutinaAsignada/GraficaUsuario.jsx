@@ -1,15 +1,13 @@
-import React from 'react'
-import './GraficaUsuario.css'
+import React from "react";
+import "./GraficaUsuario.css";
+import LinesChart from "./LinesChart";
 
 const GraficaUsuario = () => {
   return (
-    <div className='graficaUser'>
-        <div className='graficaUser-Grafo'>
-            <p>Cal y m</p>
-            <p>ABRIL 2024</p>
-        </div>
+    <div className="graficaUser">
+      <LinesChart />
     </div>
-  )
-}
+  );
+};
 
-export default GraficaUsuario
+export default GraficaUsuario;

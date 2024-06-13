@@ -10,18 +10,13 @@ const BuscadorUsuarioAsignarDieta = () => {
         <p>DIETA A ASIGNAR</p>
       </div>
       <div className="BuscadorUsuAsigimagendi">
-        <select className="dropdown" defaultValue="JUAN">
-          <option value="JUAN">Juan</option>
-          <option value="JUAN">Pedro</option>
-          <option value="JUAN">Denis</option>
-        </select>
+        <input placeholder="Buscar..."></input>
         <select className="dropdown1" defaultValue="JUAN">
           <option value="JUAN">Desayuno</option>
           <option value="JUAN">Almuerzo</option>
           <option value="JUAN">Cena</option>
         </select>
       </div>
-
     </div>
   );
 };

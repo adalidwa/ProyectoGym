@@ -1,0 +1,15 @@
+.asignarboton{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.asignarboton button{
+    background-color: #C04551;
+    width: 230px;
+    height: 30px;
+    color:white;
+    font-size: 20px;
+    border-radius: 48px;
+    border: none;
+}

@@ -16,12 +16,12 @@ import "./App.css";
 const App = () => {
   return (
     <div className="cuadro">
-      <AsignarDieta/>
+      {/* <AsignarDieta/> */}
       {/* <AsignacionAlimentos/> */}
       {/* <DietaAsignada/> */}
       {/* <EjeciciosAsignar/> */}
       {/* <AsignarRutina/> */}
-      {/* <RutinaAsignada/> */}
+     {/*  <RutinaAsignada/> */}
     </div>
   );
 };

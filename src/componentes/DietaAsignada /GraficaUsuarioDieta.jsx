@@ -1,13 +1,12 @@
 import React from 'react'
 import './GraficaUsuarioDieta.css'
+import LinesChart from './LinesChart'
 
 const GraficaUsuarioDieta = () => {
   return (
     <div className='graficaUserdi'>
-        <div className='graficaUser-Grafodi'>
-            <p>Gramos</p>
-            <p>ABRIL 2024</p>
-        </div>
+            <LinesChart/>
+        
     </div>
   )
 }
