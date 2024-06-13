@@ -1,0 +1,28 @@
+.titulo{
+    /* background-color: aqua; */
+    width: 345px;
+    height: 40px;
+    margin: 10px;
+}
+.titulo img {
+    margin: 0px 10px;
+    width: 27px;
+    height: 24.59px;
+}
+
+.tituloimagen p{
+    margin: 0px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.titulo .tituloimagen {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.tituloimagen img{
+    margin: 0px 90px 0px 10px;
+}
