@@ -1,0 +1,11 @@
+.Instrucciones{
+    margin: 10px;
+    font-size: 22px;
+
+}
+.Instrucciones hr{
+    background-color: #C04551;
+}
+.Instrucciones p{
+    margin: 0px;
+}

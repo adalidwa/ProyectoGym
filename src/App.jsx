@@ -16,12 +16,16 @@ import AsignarDieta from "./componentes/asignarDieta/AsignarDieta.jsx";
 import "./App.css";
 import DietaAsignadaCliente from "./componentes/dietaasignadacliente/DietaAsignadaCliente.jsx";
 import Notificacion from "./componentes/Notificacion/Notificacion.jsx";
+import RutinaAsignadaCliente from "./componentes/RutinaAsignadaCliente/RutinaAsignadaCliente.jsx";
+import InformacionEstiramiento from "./componentes/infomacionEjerciciosEstiramieno/InformacionEstiramiento.jsx";
 const App = () => {
   
   return (
     <div className="cuadro">
-      <Notificacion/>
-      <DietaAsignadaCliente/>
+      <InformacionEstiramiento/>
+      {/* <Notificacion/> */}
+      {/* <RutinaAsignadaCliente/> */}
+      {/* <DietaAsignadaCliente/> */}
       {/* <AsignarDieta/> */}
       {/* <AsignacionAlimentos/> */}
       {/* <DietaAsignada/> */}

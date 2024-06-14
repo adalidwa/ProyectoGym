@@ -1,0 +1,10 @@
+
+.EstiramientoImg img{
+    width: 375px;
+    height: 361px;
+}
+.EstiramientoImg p{
+    font-size: 35px;
+    display: flex;
+    margin: 10px;
+}
