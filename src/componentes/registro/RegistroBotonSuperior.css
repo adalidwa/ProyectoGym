@@ -1,0 +1,8 @@
+.contenedor_RegistroBotonSuperior
+{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    
+}

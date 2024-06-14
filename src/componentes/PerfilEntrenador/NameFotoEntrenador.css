@@ -1,0 +1,32 @@
+
+.ImagenName{
+    display: flex;
+    justify-content: center;
+}
+.ImagenName img{
+    border-radius: 50%;
+    width: 183px;
+    height: 184px;
+}
+.FotoNameIng hr{
+    width: 266px;
+    margin: 5px 0px 0px 0px;
+}
+.FotoNameIng{
+    width: 266px;
+    height: 299.5px;
+   /*  background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Name h1{
+    /* background-color: aqua; */
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    width: 177px;
+    height: 84px;
+}

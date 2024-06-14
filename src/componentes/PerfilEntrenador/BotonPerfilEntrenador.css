@@ -1,0 +1,21 @@
+.PerfilBoton{
+    /* background-color: aquamarine; */
+    margin: 8px 0px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.PerfilBotontexto button{
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: #C04551;
+    font-size: 20px;
+    border-radius: 48px;
+    width: 191px;
+    height: 50px;
+    font-weight: 600;
+}
+button img{
+    margin: 0px 10px 0px 10px;
+}

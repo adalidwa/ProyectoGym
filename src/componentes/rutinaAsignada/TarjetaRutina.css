@@ -1,0 +1,18 @@
+.contenedorT{
+    width: 375px;
+    height: 812px;
+    margin: 0px 10px;
+    
+}
+
+.contenedorMinitarjeta{
+    width: 375px;
+    height: 394px;
+    
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}

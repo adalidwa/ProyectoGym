@@ -1,0 +1,20 @@
+.sumacalDi{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    border:2px solid #C04551;
+    background-color: transparent;
+    margin: 10px;
+}
+.sumacalDi p{
+    font-size: 30px;
+    width: 149px;
+    height: 84px;
+    text-align: center;
+    margin: 30px;
+}
+.sumacalDi img{
+    border-radius: 20px;
+    margin: 20px;
+}

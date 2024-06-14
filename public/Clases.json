@@ -1,0 +1,87 @@
+[
+    {
+      "clase": "Zumba",
+      "horaInicio": "10:00",
+      "horaFin": "11:00",
+      "instructor": "María González"
+    },
+    {
+      "clase": "Crossfit",
+      "horaInicio": "11:15",
+      "horaFin": "12:15",
+      "instructor": "Juan Pérez"
+    },
+    {
+      "clase": "Yoga",
+      "horaInicio": "12:30",
+      "horaFin": "13:30",
+      "instructor": "Laura Martínez"
+    },
+    {
+      "clase": "Pilates",
+      "horaInicio": "14:00",
+      "horaFin": "15:00",
+      "instructor": "Carlos Sánchez"
+    },
+    {
+      "clase": "Spinning",
+      "horaInicio": "16:30",
+      "horaFin": "17:30",
+      "instructor": "Alejandro López"
+    },
+    {
+      "clase": "Baile Latino",
+      "horaInicio": "17:45",
+      "horaFin": "18:45",
+      "instructor": "Ana Rodríguez"
+    },
+    {
+      "clase": "Pilates",
+      "horaInicio": "19:00",
+      "horaFin": "20:00",
+      "instructor": "Lucía García"
+    },
+    {
+      "clase": "Aeróbicos",
+      "horaInicio": "20:15",
+      "horaFin": "21:15",
+      "instructor": "Pedro Fernández"
+    },
+    {
+      "clase": "Boxeo",
+      "horaInicio": "09:30",
+      "horaFin": "10:30",
+      "instructor": "Diego Díaz"
+    },
+    {
+      "clase": "Kickboxing",
+      "horaInicio": "14:30",
+      "horaFin": "15:30",
+      "instructor": "Sofía Ruiz"
+    },
+    {
+      "clase": "Funcional",
+      "horaInicio": "18:00",
+      "horaFin": "19:00",
+      "instructor": "Martín Castro"
+    },
+    {
+      "clase": "Entrenamiento HIIT",
+      "horaInicio": "19:15",
+      "horaFin": "20:15",
+      "instructor": "Elena Navarro"
+    },
+    {
+      "clase": "Pilates",
+      "horaInicio": "07:00",
+      "horaFin": "08:00",
+      "instructor": "Gabriel López"
+    },
+    {
+      "clase": "Estiramiento y Flexibilidad",
+      "horaInicio": "08:15",
+      "horaFin": "09:15",
+      "instructor": "Marcela Ramírez"
+    }
+  ]
+  

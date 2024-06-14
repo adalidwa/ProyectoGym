@@ -1,0 +1,15 @@
+.ContenedorTexto {
+    width: 301px;
+    height: 91px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.ContenedorTexto h1 {
+    font-size: 25px;
+    color: #2465E1;
+}
+.ContenedorTexto p{
+    font-size: 20px;
+    color: #FFFFFF;
+}

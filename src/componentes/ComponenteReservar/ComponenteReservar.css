@@ -1,0 +1,60 @@
+.ContenedorReservar{
+    background-color: rgb(122, 24, 24);
+    height: 370px;
+    width: 330px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 25px;
+}
+
+.ContenedorConfirmacion{
+    background-color: rgb(248, 237, 237);
+    height: 335px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.TextoConfirmacion{
+    height: 170px;
+    width: 250px;
+    font-family: 'Alumni Sans', sans-serif;
+    margin: 0;
+    font-size: 29px;
+    color: #a12626;
+}
+
+.BotonesOpciones{
+
+    height: 130px;
+    width: 190px;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.BotonesOp{
+    padding: 10px;
+    width: 180px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #a12626;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.BotonesOp:hover {
+    background-color: #262323;
+    box-shadow: 0 6px 10px rgba(39, 37, 37, 0.982);
+    transform: translateY(-2px);
+}

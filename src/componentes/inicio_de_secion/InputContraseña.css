@@ -1,0 +1,32 @@
+.contenedor_InputContra
+{
+    display: flex;
+    width: 311px;
+    height: 60px;
+    flex-direction: row;
+    align-items: center;
+}
+.correo_contra
+{
+    display: flex;
+    width: 265px;
+    height: 60px;
+    background-color: transparent !important;
+    border: 0;
+    border-bottom: 2px solid rgba(44, 44, 46, 1);
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: regular    ;
+    font-size: 25px;
+    color: white;
+    outline: none;
+}
+.correo_contra:focus {
+    border-color: #007BFF; 
+}
+.contenedor_SubInferiorInicioSecion
+{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    justify-content: flex-end;
+}

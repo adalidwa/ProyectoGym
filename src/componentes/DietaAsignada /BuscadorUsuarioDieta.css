@@ -1,0 +1,23 @@
+.BuscadorUsudi{
+    width: 345px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.BuscadorUsudi img {
+    margin: 0px 10px;
+    width: 27px;
+    height: 24.59px;
+}
+.BuscadorUsudi input{
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3E3E41;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}

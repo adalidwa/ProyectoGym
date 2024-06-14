@@ -1,0 +1,40 @@
+.contenedor1{
+    width: 264px;
+    height: 295px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.redondoMayor{
+    width: 242px;
+    height: 242px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redondoMayor p{
+    color: #C04551;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.redondoMenor{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #C04551;
+    position: absolute;
+    margin-top:30% ;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+.return{
+    width: 33px;
+    height: 33px;
+
+}

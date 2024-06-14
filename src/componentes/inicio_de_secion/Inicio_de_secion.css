@@ -1,0 +1,43 @@
+.contenedor_inicio_de_secion
+{
+    display: flex;
+    height: 100vh;
+    width: 375px;
+    flex-direction: column;
+    border: 1px solid white;
+    overflow: hidden;
+}
+.cont_sup_ini
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-size: 100% 100%;
+    background-image: url(../../assets/imagens/Background.png);
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position:top; /* Centra la imagen */
+}
+
+.bienvenido_sup_ini
+{
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: regular;
+    font-size: 36px;
+    line-height: 0.7;
+}
+.contenedor_inferior_ini_ses
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100%;
+    height: 35vh;
+  
+    align-items: center;
+}

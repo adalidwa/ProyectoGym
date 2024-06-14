@@ -1,0 +1,14 @@
+.botonabajo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonabajo button{
+    background-color: #C04551;
+    width: 107px;
+    height: 35px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 48px;
+}

@@ -1,0 +1,16 @@
+.contenedor_BotonoesUsuario
+{
+    display: flex;
+    width: 175px;
+    height: 100px;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px;
+    background-size: 100% 100%;
+}

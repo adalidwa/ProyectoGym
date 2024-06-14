@@ -1,0 +1,74 @@
+.rating-component {
+  background-color: rgba(28, 28, 30, 1);
+ 
+ 
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  max-width: 800px;
+
+ margin: auto;
+ padding: 38px;
+ 
+}
+
+.rating-stars {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.rating-star {
+  font-size: 32px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.rating-star:hover {
+  color:  rgba(182, 70, 86, 1);
+}
+
+.rating-star.active {
+  color:  rgba(182, 70, 86, 1);
+}
+
+.rating-question {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.rating-comment-box,
+.rating-suggestion-box {
+  margin-bottom: 10px;
+}
+
+.rating-comment-box textarea,
+.rating-suggestion-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(96, 96, 102, 0.295);
+  border-radius: 5px;
+  resize: vertical;
+  background-color: rgba(96, 96, 102, 0.295);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.rating-submit-button {
+  background-color: rgba(182, 70, 86, 1);
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.rating-submit-button:hover {
+  background-color: rgb(71, 45, 187);
+}

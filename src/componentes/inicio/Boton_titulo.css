@@ -1,0 +1,28 @@
+.contenedor_boton_titulo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.boton_inicio
+{
+    width: 259px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    background-color: rgba(192, 69, 81, 1);
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: regular;
+    font-size: 22px;
+    line-height: 0.7;
+    
+
+}
+.boton_inicio:active
+{
+
+    background-color: red;
+}

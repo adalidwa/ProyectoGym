@@ -1,0 +1,25 @@
+.envioUserAsigdi{
+    border: 2px solid #C04551;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 351px;
+    height: 73px;
+
+}
+.envioUserAsigdi input{
+    width: 351px;
+    height: 70px;
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    margin: 0px;
+}
+.envioUserAsigdi img{
+    width: 27.21px;
+    height: 26.71px;
+    margin: 10px;
+}

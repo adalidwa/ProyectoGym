@@ -1,0 +1,14 @@
+.contenedor_chat
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.custom-chatbot-container {
+    width: 700px;
+    height: 600px;
+    border: 2px solid #000;
+  }

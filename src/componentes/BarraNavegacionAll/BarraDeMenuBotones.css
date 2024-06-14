@@ -1,0 +1,54 @@
+.BarraMenuBotones{
+    width: 181px;
+    height: 213px;
+    margin: 0px 10px 10px 10px;
+}
+.BarraMenuBotones p{
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0px;
+}
+.Barra{
+    display: flex;
+    flex-direction: column;
+}
+.BarraMenuBotones button{
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    margin: 9px;
+    padding: 0px;
+    text-align: unset;
+    font-size: 22px;
+    border-color: black;
+    border: none;
+    color: white;
+}
+.BarraBotonesImagenes img{ 
+    margin: 10px 5px 10px 5px;
+}
+.BarraBotonesTexto button{
+    margin: 0px 0px 8px 0px;
+}
+.opciones
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    width: 185px;
+    height: 29px;
+}
+.opciones1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    width: 185px;
+    height: 58px;
+}

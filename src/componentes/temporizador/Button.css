@@ -1,0 +1,15 @@
+.ContenedorB {
+    width: 327px;
+    height: 48px;
+    top: 60px;
+    position: relative;
+
+}
+ .IniciarTime{
+    font-size: 20px;
+    width: 327px;
+    height: 48px;
+    background-color: #C04551;
+    border-radius: 80px;
+
+ }

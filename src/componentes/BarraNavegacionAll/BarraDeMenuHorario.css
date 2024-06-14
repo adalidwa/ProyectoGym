@@ -1,0 +1,32 @@
+.BarraHorario{
+    /* background-color: aqua; */
+    display: inline-block;
+    width: 158px;
+    height: 90px;
+    margin: 250px 10px 10px 10px;
+}
+.BarraHorario p{
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px;
+}
+.BarraHorarioTitulo p{
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    color: #c04551;
+    font-size: 25px;
+    width: 66px;
+}
+.BarraHorarioTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px;
+}
+.BarraHorarioTitulo img{
+    margin: 10px 5px 5px 5px;
+}

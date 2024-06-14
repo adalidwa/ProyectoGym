@@ -1,0 +1,52 @@
+.calendario {
+    width: 100%;
+    height: 210px;
+    margin: auto;
+    background-color: rgba(28, 28, 30, 1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-anterior, .btn-siguiente {
+    background-color:rgba(182, 70, 86, 1);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  .btn-anterior, .btn-siguiente:hover {
+    background-color: rgb(71, 45, 187); 
+  }
+  
+  .mes {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .dias-del-mes {
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px; 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+  }
+  
+  .dia {
+    text-align: center;
+   
+
+  }  

@@ -1,0 +1,21 @@
+.contenedor_Producto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.producto_imagen
+{
+    display: flex;
+    width: 300px;
+    height: 320px;
+}
+.descripcion
+{
+    width: 300px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+   text-align:justify; 
+}

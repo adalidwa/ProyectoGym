@@ -1,0 +1,24 @@
+.contenedor_InformacionUsuario
+{
+    display: flex;
+    height: 210px;
+    width: 100%;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagen_usuario
+{
+    width: 114px;
+    height: 99px;
+    border-radius: 50px;
+}
+.firstname
+{
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px;
+}

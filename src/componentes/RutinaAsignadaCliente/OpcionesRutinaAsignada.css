@@ -1,0 +1,46 @@
+
+.RutinaBotones{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+}
+.RutinaBotones button{
+    width: 192.5px;
+    height: 58px;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.botonesprincipales hr{
+    background-color: #C04551;
+    margin: 0px 15px;
+}
+.botonesprincipales p{
+    width: 345px;
+    height: 437px;
+    font-size: 24px;
+    margin: 10px 20px;
+} 
+.RuImgs img{
+    width: 107.28px;
+    height: 46px;
+
+}
+.Rutext p{
+    /* background-color: red; */
+    font-size: 30px;
+    width: 90px;
+    height: 40px;
+    margin: 0px;
+} 
+.Rutinaimgtext{
+    /* background-color: aqua; */
+    height: 63px;
+    width: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}

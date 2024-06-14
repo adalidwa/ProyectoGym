@@ -1,0 +1,31 @@
+.EjercicioUsedi{
+    /* background-color: aqua; */
+    width: 352px;
+    height: 133px;
+    border: 2px solid #C04551;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.EjercicioUsedi p{
+    font-size: 30px;
+    display: inline-block;
+    margin: 20px;
+
+}
+.letrasUsedi{
+    width: 313px;
+    height: 30px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px 20px;
+
+}
+.letrasUsedi p{
+    /* background-color: blue; */
+    display: inline-block;
+    font-size: 25px;
+    margin: 0px;
+}

@@ -1,0 +1,21 @@
+.contenedorM{
+    width: 375px;
+    height: 342px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    
+}
+.contenedorGrafica {
+    width: 362px;
+    height: 244px;
+    background-color: #28282B;
+    margin-top: 40px;
+    
+}
+.contenedorM h1{
+    color: #2465e1;
+    font-size: 20px;
+    text-align: center; 
+}

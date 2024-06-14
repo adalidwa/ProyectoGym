@@ -1,0 +1,45 @@
+.contenedor_usuario
+{
+    display: flex;
+    height: 100vh;
+    width: 375px;
+    flex-direction: column;
+    border: 1px solid white;
+    overflow: hidden;
+    overflow-y: auto;
+    
+}
+.subcontenedor_usuario
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 100vh;
+    
+    background-image: url(../../assets/imagens/usuario_imagen.png);
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position:top;
+    background-size: 100% 60%;
+}
+.targetausuario
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 0;
+    width: 180px;
+    height: 590px;
+    
+    
+}
+.bienvenido_usuario
+{
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px;
+}

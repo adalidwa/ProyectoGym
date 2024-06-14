@@ -1,0 +1,8 @@
+.contenedorpri
+{
+    display: flex;
+    height: auto;
+    width: 375px;
+    flex-direction: column;
+    overflow: auto;
+}

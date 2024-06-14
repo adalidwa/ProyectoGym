@@ -1,0 +1,32 @@
+.contenedor_log
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 96px;
+    
+}
+.logo_img
+{
+    width: 116px;
+    height: 116px;
+    margin-bottom: 50px;
+}
+.titulo_inicio
+{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 0.7;
+    margin: 0;
+    
+}
+.contenedor_titulo
+{
+    display: flex;
+    width: 100%;
+    height: 117px ;
+    text-align: center;
+    
+}

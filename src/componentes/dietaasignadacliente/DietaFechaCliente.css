@@ -1,0 +1,51 @@
+.FechaUsuAsigg {
+    width: 320px;
+    display: flex;
+    margin: 5px 20px;
+    font-size: 30px;
+    position: relative; /* Para posicionar el calendario relativo al contenedor */
+    
+}
+
+.FechaUsuAsigg p {
+    display: inline-block;
+    margin: 0px;
+}
+
+.FechaUsuTextoAsigg {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.FechaUsuImgAsigg {
+    position: relative;
+}
+
+.FechaUsuImgAsigg img {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.react-datepicker {
+    position: absolute;
+    top: 30px; /* Ajusta según sea necesario */
+    right: 0px;
+    z-index: 1000;
+}
+.FechaUsuTextoAsigg .dropdown1{
+    width: 120px;
+    height: 23px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.FechaUsuAsigg .dropdown1 option {
+    max-width: 10px; /* Ajusta este valor según sea necesario */
+    height: 10px;
+    background-color:black;
+    color: white;
+}

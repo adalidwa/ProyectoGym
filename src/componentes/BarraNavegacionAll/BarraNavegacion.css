@@ -1,0 +1,58 @@
+.barraDeNavegacion {
+    position: relative;
+    background-color: black;
+  }
+.contenedor
+{
+    display: flex;
+    height: 74.94px;
+    width: 375px;
+    background-color: rgba(51, 54, 63, 0.94);
+    flex-direction: row;
+    align-items: center;    
+    justify-content:space-between;
+    color: white;
+}
+.titulo
+{
+    color: white;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.barritas
+{
+    margin-right: 10px;
+}
+.navlink-no-under {
+    text-decoration: none;
+  } 
+
+.modal1 {
+    position: absolute;
+    top: 450%;
+    right: 30%;
+    bottom: 0;
+    left: 0;
+    z-index: 999; /* Asegúrate de que este valor de z-index sea mayor que cualquier otro elemento dentro de barra_noti */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para modal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal-content1 {
+
+padding: 20px;
+border-radius: 8px;
+
+max-width: 200px; /* Ajusta el tamaño del modal según tus necesidades */
+width: 100%;
+}
+  
+   

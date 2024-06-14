@@ -1,0 +1,93 @@
+.circuitos {
+ padding: 20px;
+ font-family: 'Poppins', sans-serif;
+}
+
+
+.circuitos img {
+  width: 130px;
+  height: 97px;
+  display: block;
+  float: left;
+  border-radius: 15px;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+  
+.TituloClases {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+  
+.circuitos p {
+  font-size: 7px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Poppins', sans-serif;
+}
+  
+.espacios-libres {
+  font-size: 7px;
+  
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Poppins', sans-serif;
+}
+  
+.espacio-libre {
+  width: 200;
+  height: 120;
+  margin-top: 20px;
+  
+  padding: 5px 10px 15px 20px; 
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(51, 54, 63, 0.94);
+  
+}
+  
+.espacio-libre h3 {
+  font-size: 12px;
+  text-align: right;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(182, 70, 86, 1);
+}
+  
+.espacio-libre p {
+  font-size: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-ver {
+  background-color:rgba(182, 70, 86, 1);
+  color: #fff;
+  font-size: 12px;
+  padding: 7px 19px;
+  border: none;
+  border-radius: 8px;
+  /*  border-radius: 2.5px; */
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.btn-ver:hover {
+  background-color: rgb(71, 45, 187);
+}
+.ImagenClases
+{
+  display: flex;
+  width: 90px;
+  height: 90px;
+  border: 1px solid white;
+}
+
+.Dias
+{
+  display: flex;
+  
+}

@@ -1,0 +1,13 @@
+/* custom-toast.css */
+
+.Toastify__toast--success {
+    color: #your_custom_color !important; /* Change to your desired color */
+}
+
+.Toastify__toast--success .Toastify__progress-bar {
+    background: #your_custom_color !important; /* Change to your desired color */
+}
+
+.Toastify__toast--success .Toastify__toast-icon {
+    color: #your_custom_color !important; /* Change to your desired color */
+}
