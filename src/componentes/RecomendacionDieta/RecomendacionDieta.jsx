@@ -8,7 +8,7 @@ const RecomendacionDieta = () => {
     const [isVisible, setIsVisible] = useState(true); // Estado para controlar la visibilidad
 
     useEffect(() => {
-        fetch('/RecomendacionDieta.json')
+        fetch('https://661037cf0640280f219c98cc.mockapi.io/api/v2/componentes')
             .then(response => response.json())
             .then(data => {
                 setData(data);

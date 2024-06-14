@@ -6,14 +6,14 @@ import cerrarNovedades from '/src/assets/icons/x.png';
 function TimelineNovedades() {
     const [novedades, setNovedades] = useState([]);
     const [selectedIndex, setSelectedIndex] = useState(null);
-    const [visible, setVisible] = useState(true); // Estado para controlar la visibilidad
+    const [visible, setVisible] = useState(true);
 
     useEffect(() => {
-        fetch('/Novedades.json')
+        fetch('https://661037cf0640280f219c98cc.mockapi.io/api/v2/componentes')
             .then(response => response.json())
             .then(data => {
                 setNovedades(data);
-                const randomIndex = Math.floor(Math.random() * (data.length - 1)); // Ensure there's a successor
+                const randomIndex = Math.floor(Math.random() * (data.length - 1));
                 setSelectedIndex(randomIndex);
             })
             .catch(error => {
@@ -21,24 +21,24 @@ function TimelineNovedades() {
             });
     }, []);
 
-    if (novedades.length === 0 || selectedIndex === null || !visible) { // Agregar condición de visibilidad
-        return null; // Devuelve null para que el componente desaparezca
+    if (novedades.length === 0 || selectedIndex === null || !visible) { 
+        return null; 
     }
 
     const itemsToShow = novedades.slice(selectedIndex, selectedIndex + 2);
 
     const handleClose = () => {
-        setVisible(false); // Cambiar el estado de visibilidad al presionar el botón
+        setVisible(false);
     };
 
     return (
         <div className="ContenedorGeneral">
-            <button className="cerrarNovedades" onClick={handleClose}> {/* Agregar onClick para manejar el cierre */}
+            <button className="cerrarNovedades" onClick={handleClose}>
                 <img className="cerrarNovedades" src={cerrarNovedades} alt="Cerrar novedades" />
             </button>
             {itemsToShow.map((novedad, index) => (
                 <Novedades 
-                    key={index}
+                    key={novedad.id}
                     fecha={novedad.FechaNovedad}
                     novedad={novedad.Novedad}
                     descripcion={novedad.DescripcionNovedad}

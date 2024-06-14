@@ -2,9 +2,8 @@
     background-color: #fdfdfd;
     height: 480px;
     width: 340px;
-    border-color: rgb(0, 0, 0);
-    border-style: dotted;
     display: flex;
+    border-style:groove;
     flex-direction: column;
     justify-content: center;
     align-items: center;
