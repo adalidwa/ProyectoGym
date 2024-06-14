@@ -26,6 +26,8 @@
 .RuImgs img{
     width: 107.28px;
     height: 46px;
+    display: flex;
+    margin: 10px;
 
 }
 .Rutext p{
@@ -33,14 +35,20 @@
     font-size: 30px;
     width: 90px;
     height: 40px;
-    margin: 0px;
+    margin: 15px;
 } 
 .Rutinaimgtext{
     /* background-color: aqua; */
-    height: 63px;
+    height: 450px;
     width: 384px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
+}
+.RuImgs{
+    /* background-color: red; */
+}
+.Rutext{
+    /* background-color: blue; */
 }

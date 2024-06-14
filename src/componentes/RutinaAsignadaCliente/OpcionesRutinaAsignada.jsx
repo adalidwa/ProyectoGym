@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './OpcionesRutinaAsignada.css'
 import Hombros from '../img/HombrosMusculos.png'
 
-const OpcionesRutinaAsignada = () => {
+const OpcionesRutinaAsignada = (props) => {
+    const users =props.users
     const [content, setContent] = useState('instrucciones');
 
   const handleClick = (section) => {
@@ -19,22 +20,23 @@ const OpcionesRutinaAsignada = () => {
       {content === 'instrucciones' && (
           <>
             <p>
-            Con los pies separados a la anchura de los hombros frente al banco. Empuja el trasero hacia atrás y baja el torso hacia abajo, extendiendo el brazo para descansar la palma de la mano en el banco. Asegúrate de que tus hombros se mantengan por encima de las caderas.
-            Coge la mancuerna con la mano de trabajo. Aprieta los glúteos y los abdominales para crear tensión en todo el cuerpo. 
-            Tu espalda debe estar plana, con la cabeza en una posición neutral.
-            Aprieta los músculos de la parte media de la espalda para subir el codo, remar el peso. Mantén los hombros nivelados y evita girar la parte baja de la espalda.
-            Haz una pausa para un ritmo, luego vuelve a bajar el peso.
+            {users.Descripcion}
             </p>
           </>
         )}
         {content === 'zona' && (
             <div className='Rutinaimgtext'>
                 <div className='RuImgs'>
-                    <img src={Hombros} alt="" />
+                    <img src={users.imgzonatrabajada1} alt="" />
+                    <img src={users.imgzonatrabajada2}/>
+                    <img src={users.imgzonatrabajada3} alt="" />
                 </div> 
                 <div className='Rutext'>
-                    <p>Hombro</p>
-                </div>
+                    <p>{users.Imgzonatrabajada1text}</p>
+                    <p>{users.Imgzonatrabajada1text2}</p>
+                    <p>{users.Imgzonatrabajada1text3}</p>
+                    
+                </div> 
             </div>
         )}
       </div>

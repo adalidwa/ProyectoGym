@@ -24,14 +24,14 @@ const App = () => {
     <div className="cuadro">
       {/* <InformacionEstiramiento/> */}
       {/* <Notificacion/> */}
-      {/* <RutinaAsignadaCliente/> */}
-      {/* <DietaAsignadaCliente/> */}
+      {<RutinaAsignadaCliente/>}
+     {/*  <DietaAsignadaCliente/> */}
       {/* <AsignarDieta/> */}
       {/* <AsignacionAlimentos/> */}
       {/* <DietaAsignada/> */}
       {/* <EjeciciosAsignar/> */}
       {/* <AsignarRutina/> */}
-      {/*  <RutinaAsignada/> */}
+       {/* <RutinaAsignada/> */}
       {/* <ToastContainer /> */}
       
     </div>
